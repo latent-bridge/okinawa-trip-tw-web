@@ -1,0 +1,45 @@
+# デプロイ用リポジトリ okinawa-trip-tw-web の .github/workflows/pages.yml に置く。
+# push時 + 6時間ごと(cron) に build.mjs で即時情報（為替・天気・季節）を再取得して Pages へ公開。
+name: Build & Deploy (freshness)
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 */6 * * *'   # 6時間ごと（UTC）。為替=日次/天気=数回更新に十分
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.dep.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Refresh freshness data (FX / weather / season)
+        run: node build.mjs
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp index.html styles.css _site/
+          echo 'okinawa-trip-tw.latent-bridge.com' > _site/CNAME
+          touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: dep
+        uses: actions/deploy-pages@v4

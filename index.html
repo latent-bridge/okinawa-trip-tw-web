@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>沖繩攻略 — 離島深度・在地鮮度</title>
+<meta name="description" content="為重訪沖繩的台灣旅客而生：離島深掘、在地新店、即時公休與船班——熱門部落格不會即時更新的那些。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Hanken+Grotesk:wght@400..800&family=Zen+Maru+Gothic:wght@500;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=DM+Mono:wght@400;500&family=Noto+Sans+TC:wght@400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-style="koralle">
+
+
+
+<!-- ============ HEADER ============ -->
+<header class="head">
+  <div class="wrap head__bar">
+    <a class="brand" href="#">
+      <span class="brand__mark">沖</span>
+      <span class="brand__tx">沖繩攻略<small>OKINAWA · 在地深度誌</small></span>
+    </a>
+    <nav class="nav">
+      <a href="#islands"><span class="dot"></span>離島深度</a>
+      <a href="#shop">購物攻略</a>
+      <a href="#new" hidden>在地新店</a>
+      <a href="#fresh" hidden>即時情報</a>
+      <a href="#social" hidden>社團情報</a>
+    </nav>
+    <div class="head__right">
+      <div class="lang-tog" id="langTog" role="group" aria-label="language">
+        <button type="button" data-l="zh" class="on">繁中</button>
+        <button type="button" data-l="ja">日本語</button>
+      </div>
+      <span class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+        搜尋離島・店家・船班
+      </span>
+      <a class="btn-line" href="#">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3C6.5 3 2 6.6 2 11c0 4 3.6 7.3 8.5 7.9.3 0 .8.2.9.5.1.3.1.7 0 1l-.1.8c0 .2-.2.9.8.5s5.4-3.2 7.4-5.5C20.9 14.9 22 13 22 11c0-4.4-4.5-8-10-8Z"></path></svg>
+        加 LINE 看即時
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ LIVE TICKER (鮮度) ============ -->
+<div class="ticker">
+  <div class="wrap ticker__in">
+    <span class="ticker__tag"><span class="pulse"></span>即時</span>
+    <div class="ticker__track">
+      <span>🌀 颱風 6 號 — 對沖繩本島影響 <b>低</b>，八重山注意</span>
+      <span>⛴ 高速船 石垣→竹富 <b>正常營運</b></span>
+      <span>🏪 美麗海水族館 本週 <b>無休</b></span>
+      <span>🍜 話題沖繩麵店「○○」週三公休</span>
+      <span>🎫 慶良間跳島一日遊 本週末 <b>剩 3 位</b></span>
+      <span>🌀 颱風 6 號 — 對沖繩本島影響 <b>低</b>，八重山注意</span>
+      <span>⛴ 高速船 石垣→竹富 <b>正常營運</b></span>
+      <span>🏪 美麗海水族館 本週 <b>無休</b></span>
+      <span>🍜 話題沖繩麵店「○○」週三公休</span>
+      <span>🎫 慶良間跳島一日遊 本週末 <b>剩 3 位</b></span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero__top">
+      <div>
+        <div class="hero__k">為「第 N 次沖繩」而生</div>
+        <h1 class="hero__h">離島深度・<em>在地鮮度</em></h1>
+        <p class="hero__sub">本島景點你早就玩過了。我們專做<b>離島深掘、在地新店、即時公休與船班</b>——熱門部落格不會即時更新的那些。</p>
+      </div>
+      <div class="repeat-pick" role="tablist" aria-label="來訪次數">
+        <button class="on">玩過 3 次以上</button>
+        <button>玩過 1–2 次</button>
+        <button>第一次</button>
+      </div>
+    </div>
+
+    <div class="bento">
+      <div class="tile bento__feat shot" style="--h:200" data-shot="照片 · 慶良間 阿嘉島">
+        <span class="badge-hot">本週最熱打卡</span>
+        <span class="meta-likes">♥ 2,431 ・ 收藏 880</span>
+        <div class="cap">
+          <div class="t">慶良間藍・阿嘉島跳島<br>三天兩夜深度玩法</div>
+          <p class="lead">那霸出發高速船 90 分鐘。避開人潮的時段、在地民宿、無料浮潛點全收錄。</p>
+          <div class="row"><span>離島深度</span><span>浮潛</span><span>在地民宿</span><span>2025 最新</span></div>
+        </div>
+      </div>
+      <div class="tile shot" style="--h:30" data-shot="照片 · 在地早餐">
+        <span class="badge-new">新店</span>
+        <span class="meta-likes">♥ 980</span>
+        <div class="cap"><div class="t">那霸在地早餐 7 選</div><div class="row"><span>美食</span><span>打卡</span></div></div>
+      </div>
+      <div class="tile shot" style="--h:40" data-shot="照片 · 免稅購物">
+        <span class="meta-likes">♥ 1,104</span>
+        <div class="cap"><div class="t">唐吉訶德 必買清單</div><div class="row"><span>購物</span></div></div>
+      </div>
+      <div class="tile shot" style="--h:150" data-shot="照片 · 宮古島">
+        <span class="meta-likes">♥ 1,560</span>
+        <div class="cap"><div class="t">宮古島 海景咖啡</div><div class="row"><span>離島</span><span>咖啡</span></div></div>
+      </div>
+      <div class="tile shot" style="--h:300" data-shot="照片 · 季節限定" hidden>
+        <span class="badge-new">季節限定</span>
+        <span class="meta-likes">♥ 742</span>
+        <div class="cap"><div class="t">這個月才有的玩法</div><div class="row"><span>鮮度</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 即時情報 (鮮度ツール) ============ -->
+<section class="sec" id="fresh">
+  <div class="wrap">
+    <div class="sec__head">
+      <div>
+        <span class="k k-hot">● 出發前必看</span>
+        <h2>即時情報中心</h2>
+        <p class="desc">匯率、天氣、當季——每日自動更新的客觀數據。船班與航班直接連到官方即時頁，最準確。</p>
+      </div>
+      <span class="more" style="cursor:default">更新 <!--UPDATED:start-->6/8<!--UPDATED:end--></span>
+    </div>
+
+    <div class="fresh">
+      <div class="fresh__grid">
+
+        <div class="fcard">
+          <div class="fcard__top"><span class="ic">💱</span>參考匯率</div>
+          <div class="fcard__big"><!--FX_BIG:start-->NT$100 ≈ ¥508<!--FX_BIG:end--></div>
+          <div class="fcard__lines">
+            <div class="fline"><!--FX_LINE:start-->¥100 ≈ NT$19.7 · 1 TWD ≈ ¥5.08<!--FX_LINE:end--></div>
+            <div class="fline" style="color:var(--ink-faint)">實際匯兌另含手續費，僅供參考</div>
+          </div>
+          <div class="fcard__upd">更新 <!--FX_DATE:start-->6/8<!--FX_DATE:end--> · 來源 exchangerate-api</div>
+        </div>
+
+        <div class="fcard">
+          <div class="fcard__top"><span class="ic">🌤</span>天氣</div>
+          <div class="fcard__big"><!--WX_BIG:start-->多雲<!--WX_BIG:end--> <small>本島</small></div>
+          <div class="fcard__lines">
+            <div class="fline"><span class="st st-open">本島</span><!--WX_HONTO:start-->多雲<!--WX_HONTO:end--></div>
+            <div class="fline"><span class="st st-open">宮古</span><!--WX_MIYAKO:start-->多雲<!--WX_MIYAKO:end--></div>
+            <div class="fline"><span class="st st-open">八重山</span><!--WX_YAEYAMA:start-->雨<!--WX_YAEYAMA:end--></div>
+          </div>
+          <div class="fcard__upd">來源 氣象廳 · <a href="https://www.jma.go.jp/bosai/map.html#contents=typhoon" target="_blank" rel="noopener">颱風情報 →</a></div>
+        </div>
+
+        <div class="fcard">
+          <div class="fcard__top"><span class="ic">🗓</span>當季 <!--SEASON_MONTH:start-->6月<!--SEASON_MONTH:end--></div>
+          <div class="fcard__lines"><!--SEASON_ITEMS:start-->
+            <div class="fline"><span class="st st-open">當季</span>芒果初上市</div>
+            <div class="fline"><span class="st st-open">當季</span>海葡萄</div>
+            <div class="fline"><span class="st st-open">當季</span>螢火蟲・夜間活動</div>
+          <!--SEASON_ITEMS:end--></div>
+          <div class="fcard__upd">季節曆・人工更新</div>
+        </div>
+
+        <div class="fcard">
+          <div class="fcard__top"><span class="ic">⛴</span>船班・航班</div>
+          <div class="fcard__lines">
+            <div class="fline"><a href="https://aneikankou.co.jp/condition" target="_blank" rel="noopener">安榮觀光（八重山）運航狀況 →</a></div>
+            <div class="fline"><a href="https://yaeyama.co.jp/operation.html" target="_blank" rel="noopener">八重山觀光渡輪 運航 →</a></div>
+            <div class="fline"><a href="https://www.vill.zamami.okinawa.jp/ship/" target="_blank" rel="noopener">座間味（慶良間）船班 →</a></div>
+            <div class="fline"><a href="https://www.naha-airport.co.jp/flight/today/" target="_blank" rel="noopener">那霸機場 今日航班 →</a></div>
+          </div>
+          <div class="fcard__upd">連結官方即時頁（最準確）</div>
+        </div>
+
+      </div>
+      <div class="fresh__foot">
+        <span>匯率・天氣每日自動更新；船班・航班以各官方頁為準。資料僅供參考，出發前請再確認。</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 離島深度 ============ -->
+<section class="sec" id="islands">
+  <div class="wrap">
+    <div class="sec__head">
+      <div>
+        <span class="k k-teal">● 離島深度</span>
+        <h2>離島深掘</h2>
+        <p class="desc">跳島路線、在地民宿、無料浮潛點、避開人潮的時段——玩過本島後，往離島走得更深。</p>
+      </div>
+      <a class="more" href="#">全部 8 座離島 →</a>
+    </div>
+
+    <div class="islands">
+      <article class="icard">
+        <div class="icard__media shot" style="--h:200" data-shot="照片 · 慶良間">
+          <span class="badge-hot">最熱</span><span class="meta-likes">♥ 2,431</span>
+        </div>
+        <div class="icard__body">
+          <h3 class="icard__name">慶良間群島 <small>Kerama</small></h3>
+          <p class="icard__tag">那霸 90 分・世界級透明度的「慶良間藍」</p>
+          <p class="icard__fare">那霸·泊港 高速船片道 <span data-jpy="3140">¥3,140（約 NT$620）</span>・約50–70分</p>
+          <div class="icard__foot"><span class="pill pill-depth">跳島</span><span class="pill">浮潛</span><span>3 天 2 夜</span></div>
+        </div>
+      </article>
+
+      <article class="icard">
+        <div class="icard__media shot" style="--h:205" data-shot="照片 · 宮古島">
+          <span class="meta-likes">♥ 1,560</span>
+        </div>
+        <div class="icard__body">
+          <h3 class="icard__name">宮古島 <small>Miyako</small></h3>
+          <p class="icard__tag">跨海大橋、海景咖啡、東洋第一的白砂灘</p>
+          <p class="icard__fare">那霸空路約50分（無定期渡輪）</p>
+          <div class="icard__foot"><span class="pill pill-depth">自駕</span><span class="pill">咖啡</span><span>4 天 3 夜</span></div>
+        </div>
+      </article>
+
+      <article class="icard">
+        <div class="icard__media shot" style="--h:195" data-shot="照片 · 石垣島">
+          <span class="meta-likes">♥ 1,302</span>
+        </div>
+        <div class="icard__body">
+          <h3 class="icard__name">石垣島 <small>Ishigaki</small></h3>
+          <p class="icard__tag">八重山的玄關・川平灣與跳島的起點</p>
+          <p class="icard__fare">那霸空路約1小時・川平灣玻璃船約30分</p>
+          <div class="icard__foot"><span class="pill pill-depth">跳島基地</span><span class="pill">川平灣</span><span>3 天起</span></div>
+        </div>
+      </article>
+
+      <article class="icard">
+        <div class="icard__media shot" style="--h:30" data-shot="照片 · 竹富島">
+          <span class="badge-soft badge-hot" style="background:oklch(1 0 0 / .9);color:var(--ink)">慢遊</span><span class="meta-likes">♥ 988</span>
+        </div>
+        <div class="icard__body">
+          <h3 class="icard__name">竹富島 <small>Taketomi</small></h3>
+          <p class="icard__tag">紅瓦聚落、水牛車、星砂的「最慢島時間」</p>
+          <p class="icard__fare">石垣→竹富 渡輪往返 <span data-jpy="1700">¥1,700（約 NT$335）</span>・約15分</p>
+          <div class="icard__foot"><span class="pill pill-depth">半日</span><span class="pill">聚落</span><span>石垣出發</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 在地新店 feed ============ -->
+<section class="sec" id="new">
+  <div class="wrap">
+    <div class="sec__head">
+      <div>
+        <span class="k k-ok">● 本週最新</span>
+        <h2>在地・新店開幕</h2>
+        <p class="desc">每週更新的新開店與期間限定，標註開幕日期，帶你第一手嚐鮮。</p>
+      </div>
+      <a class="more" href="#">看更多新店 →</a>
+    </div>
+
+    <div class="feed">
+      <article class="ncard">
+        <div class="ncard__media shot" style="--h:40" data-shot="照片"><span class="badge-new">NEW</span></div>
+        <div class="ncard__b">
+          <span class="ncard__date">2025.06.01 開幕</span>
+          <span class="ncard__name">瀨長島 海景烘焙坊</span>
+          <div class="ncard__meta"><span class="loc">📍 豐見城</span><span>· 麵包・咖啡</span></div>
+        </div>
+      </article>
+      <article class="ncard">
+        <div class="ncard__media shot" style="--h:160" data-shot="照片"><span class="badge-new">NEW</span></div>
+        <div class="ncard__b">
+          <span class="ncard__date">2025.05.20 開幕</span>
+          <span class="ncard__name">北谷 美國村 屋頂酒吧</span>
+          <div class="ncard__meta"><span class="loc">📍 北谷</span><span>· 夕陽・調酒</span></div>
+        </div>
+      </article>
+      <article class="ncard">
+        <div class="ncard__media shot" style="--h:300" data-shot="照片"><span class="badge-new">期間限定</span></div>
+        <div class="ncard__b">
+          <span class="ncard__date">2025.06 限定</span>
+          <span class="ncard__name">芒果 × 海葡萄 季節甜點</span>
+          <div class="ncard__meta"><span class="loc">📍 那霸</span><span>· 期間限定</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 購物攻略 ============ -->
+<section class="sec" id="shop">
+  <div class="wrap">
+    <div class="sec__head">
+      <div>
+        <span class="k k-grape">● 購物・免稅</span>
+        <h2>購物攻略</h2>
+        <p class="desc">唐吉訶德、暢貨中心、好市多、藥妝——退稅流程與必買清單一次看懂。</p>
+      </div>
+      <a class="more" href="#">完整購物地圖 →</a>
+    </div>
+
+    <div class="shop">
+      <div class="scard scard--don">
+        <span class="scard__k">Don Quijote</span>
+        <div class="scard__t">唐吉訶德<br>國際通店</div>
+        <p class="scard__d">24 小時・免稅・必買零食藥品清單。深夜也能逛，行程最後一天的補貨聖地。</p>
+        <div class="scard__tags"><span>免稅</span><span>24H</span><span>必買清單</span></div>
+      </div>
+      <div class="scard scard--outlet">
+        <span class="scard__k">Outlet ASHIBINAA</span>
+        <div class="scard__t">沖繩暢貨中心 ASHIBINAA</div>
+        <div class="scard__tags"><span>機場 15 分</span><span>名牌</span></div>
+      </div>
+      <div class="scard scard--costco">
+        <span class="scard__k">Costco</span>
+        <div class="scard__t">好市多 南城</div>
+        <div class="scard__tags"><span>會員制</span><span>伴手禮</span></div>
+      </div>
+      <div class="scard scard--drug">
+        <span class="scard__k">Drugstore</span>
+        <div class="scard__t">藥妝比價</div>
+        <div class="scard__tags"><span>退稅</span><span>必買藥品</span></div>
+      </div>
+      <div class="scard scard--awase">
+        <span class="scard__k">Local Market</span>
+        <div class="scard__t">泡瀨・在地市場</div>
+        <div class="scard__tags"><span>在地</span><span>海鮮</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 社團 / SNS ============ -->
+<section class="sec" id="social">
+  <div class="wrap">
+    <div class="sec__head">
+      <div>
+        <span class="k k-teal">● 在地社群</span>
+        <h2>在地社團・情報源</h2>
+        <p class="desc">FB 社團、IG、Threads、LINE、Dcard——在你習慣的地方，第一手同步沖繩在地情報。</p>
+      </div>
+    </div>
+
+    <div class="social">
+      <a class="socard" href="#"><span class="socard__ic ic-fb">f</span><span class="socard__name">沖繩自由行 社團</span><span class="socard__num">12.4 萬成員</span><span class="socard__d">即時問答・最大社群</span></a>
+      <a class="socard" href="#"><span class="socard__ic ic-ig">IG</span><span class="socard__name">@okinawa.fun</span><span class="socard__num">8.6 萬追蹤</span><span class="socard__d">打卡點・限動地圖</span></a>
+      <a class="socard" href="#"><span class="socard__ic ic-th">@</span><span class="socard__name">Threads 在地速報</span><span class="socard__num">即時</span><span class="socard__d">新店・公休第一手</span></a>
+      <a class="socard" href="#"><span class="socard__ic ic-dc">D</span><span class="socard__name">Dcard 旅遊板</span><span class="socard__num">熱門</span><span class="socard__d">心得・避雷分享</span></a>
+      <a class="socard" href="#"><span class="socard__ic ic-line">L</span><span class="socard__name">LINE 即時通知</span><span class="socard__num">訂閱制</span><span class="socard__d">颱風・船班推播</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 租車 / affiliate band ============ -->
+<section class="sec">
+  <div class="wrap">
+    <div class="band">
+      <div class="band__b">
+        <div class="band__k">● 租車・票券</div>
+        <div class="band__t">沖繩租車・跳島票券一次比價</div>
+        <p class="band__d">台灣駕照＋日文譯本（JAF）流程、離島船票、一日遊——比價與預約一次搞定。</p>
+      </div>
+      <div class="band__cta">
+        <a href="#">Tabirai 租車比價 →</a>
+        <a class="ghost" href="#">KKday</a>
+        <a class="ghost" href="#">Klook</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div>
+        <div class="foot__brand">沖繩攻略<small>OKINAWA · 在地深度誌</small></div>
+        <p class="foot__note">為重訪沖繩的台灣旅客而生。離島深度、在地鮮度、即時公休與船班——熱門部落格不會即時更新的那些，我們專做。</p>
+      </div>
+      <div>
+        <h4>離島深度</h4>
+        <a href="#">慶良間群島</a><a href="#">宮古島</a><a href="#">石垣・八重山</a><a href="#">竹富島</a>
+      </div>
+      <div>
+        <h4>實用</h4>
+        <a href="#">租車比價</a><a href="#shop">購物攻略</a><a href="#islands">離島深掘</a>
+      </div>
+      <div hidden>
+        <h4>追蹤我們</h4>
+        <a href="#">Facebook 社團</a><a href="#">Instagram</a><a href="#">Threads</a><a href="#">LINE 即時</a>
+      </div>
+    </div>
+    <div class="foot__bottom">
+      <span>沖繩攻略 Okinawa · 在地深度旅遊誌 · © 2026</span>
+      <span>那霸 · 沖繩</span>
+    </div>
+  </div>
+</footer>
+
+<div class="sample-tag">📷 <b>照片與即時資料為範例展示</b></div>
+
+<script>
+(function () {
+  // 繁體中文 → 日本語（差分のみ。同一表記はそのまま）
+  var dict = {
+    "● LIVE · 即時更新":"● LIVE · リアルタイム更新",
+    "颱風、店家公休、需預約、船班、季節限定——每天為你更新最新狀態，出發前先確認。":"台風、店の定休、要予約、船便、季節限定——毎日最新の状態を更新。出発前にここでチェック。",
+    "資料來源：在地合作店家、各船公司官網、氣象廳，每日更新。":"出典：在地の提携店、各船会社の公式、気象庁。毎日更新。",
+    "● 離島深度":"● 離島の深掘り",
+    "跳島路線、在地民宿、無料浮潛點、避開人潮的時段——玩過本島後，往離島走得更深。":"ホッピング路線、在地の民宿、無料シュノーケル、混雑を避ける時間帯——本島の次は、離島をもっと深く。",
+    "● 本週最新":"● 今週の最新",
+    "每週更新的新開店與期間限定，標註開幕日期，帶你第一手嚐鮮。":"毎週更新の新店と期間限定。開店日を明記して、いち早く。",
+    "● 購物・免稅":"● 買い物・免税",
+    "唐吉訶德、暢貨中心、好市多、藥妝——退稅流程與必買清單一次看懂。":"ドンキ、アウトレット、コストコ、ドラッグストア——免税の流れと必買リストが一目で。",
+    "● 在地社群":"● 在地コミュニティ",
+    "FB 社團、IG、Threads、LINE、Dcard——在你習慣的地方，第一手同步沖繩在地情報。":"FB社団、IG、Threads、LINE、Dcard——いつもの場所で、沖縄の在地情報を最速で。",
+    "● 租車・票券":"● レンタカー・チケット",
+    "台灣駕照＋日文譯本（JAF）流程、離島船票、一日遊——比價與預約一次搞定。":"台湾の運転免許＋日本語訳文（JAF）の流れ、離島の船票、日帰り——比較と予約をまとめて。",
+    "沖繩攻略 Okinawa · 在地深度旅遊誌 · © 2026":"沖縄攻略 Okinawa · 在地ディープ旅誌 · © 2026",
+    "那霸 · 沖繩":"那覇 · 沖縄",
+    "離島深度":"離島の深掘り","在地新店":"在地の新店","購物攻略":"買い物攻略",
+    "即時情報":"リアルタイム情報","社團情報":"社団情報",
+    "搜尋離島・店家・船班":"離島・店・船便を検索","加 LINE 看即時":"LINEで即時情報",
+    "🌀 颱風 6 號 — 對沖繩本島影響":"🌀 台風6号 — 沖縄本島への影響は","，八重山注意":"、八重山は注意",
+    "正常營運":"正常運航","🏪 美麗海水族館 本週":"🏪 美ら海水族館 今週は",
+    "🍜 話題沖繩麵店「○○」週三公休":"🍜 話題の沖縄そば店「○○」水曜定休",
+    "🎫 慶良間跳島一日遊 本週末":"🎫 慶良間アイランドホッピング日帰り 今週末","剩 3 位":"残り3席",
+    "為「第 N 次沖繩」而生":"「N回目の沖縄」のために","離島深度・":"離島の深掘り・","在地鮮度":"在地の鮮度",
+    "本島景點你早就玩過了。我們專做":"本島の名所はもう制覇済み。私たちが専門にするのは",
+    "離島深掘、在地新店、即時公休與船班":"離島の深掘り・在地の新店・即時の定休と船便",
+    "——熱門部落格不會即時更新的那些。":"——人気ブログがリアルタイム更新しない、あの情報。",
+    "玩過 3 次以上":"3回以上","玩過 1–2 次":"1〜2回","第一次":"初めて","來訪次數":"来訪回数",
+    "照片 · 慶良間 阿嘉島":"写真 · 慶良間 阿嘉島","照片 · 在地早餐":"写真 · 在地の朝食",
+    "照片 · 免稅購物":"写真 · 免税ショッピング","照片 · 宮古島":"写真 · 宮古島",
+    "照片 · 季節限定":"写真 · 季節限定","照片 · 慶良間":"写真 · 慶良間",
+    "照片 · 石垣島":"写真 · 石垣島","照片 · 竹富島":"写真 · 竹富島","照片":"写真",
+    "本週最熱打卡":"今週バズり中","♥ 2,431 ・ 收藏 880":"♥ 2,431 ・ 保存 880",
+    "慶良間藍・阿嘉島跳島":"慶良間ブルー・阿嘉島ホッピング","三天兩夜深度玩法":"2泊3日の深掘りプラン",
+    "那霸出發高速船 90 分鐘。避開人潮的時段、在地民宿、無料浮潛點全收錄。":"那覇から高速船90分。混雑を避ける時間帯、在地の民宿、無料シュノーケルポイントまで網羅。",
+    "浮潛":"シュノーケル","在地民宿":"在地の民宿","新店":"新店オープン",
+    "那霸在地早餐 7 選":"那覇 在地の朝食 7選","美食":"グルメ","打卡":"映え",
+    "唐吉訶德 必買清單":"ドンキ 必買リスト","購物":"買い物","宮古島 海景咖啡":"宮古島 海景カフェ",
+    "咖啡":"カフェ","這個月才有的玩法":"今月だけの楽しみ方",
+    "● Echtzeit · 在地勢沒有的東西":"● Echtzeit · 在地勢が持たないもの","即時情報中心":"即時情報センター",
+    "飽和的繁中沖繩情報唯一的縫隙＝":"飽和した繁体字の沖縄情報、唯一の隙間＝",
+    "。颱風、店休、需預約、船班、季節限定——每日更新，這是部落格與社團追不上的護城河。":"。台風、定休、要予約、船便、季節限定——毎日更新。ブログや社団が追いつけない護城河。",
+    "全部即時情報 →":"すべての即時情報 →","颱風・天候":"台風・天候","店休・需預約":"定休・要予約",
+    "船班・航班":"船便・フライト","影響低":"影響 低","間更新":"件更新","多數航線":"多くの航路","6 月":"6月",
+    "沖繩本島・那霸":"沖縄本島・那覇","八重山・宮古":"八重山・宮古","公休":"定休",
+    "話題沖繩麵「○○」週三":"話題の沖縄そば「○○」水曜","需預約":"要予約","人氣燒肉「△△」":"人気焼肉「△△」",
+    "營運":"運航","石垣 → 竹富・小濱":"石垣 → 竹富・小浜","那霸 → 座間味・阿嘉":"那覇 → 座間味・阿嘉",
+    "當季":"旬","海葡萄・芒果初上市":"海ぶどう・マンゴー初出荷","螢火蟲・夜間活動":"ホタル・ナイトツアー",
+    "資料來源：在地合作店家・各船公司官網・氣象廳。":"出典：在地の提携店・各船会社の公式・気象庁。",
+    "每日人工查核":"毎日 人手で照合","，附":"、","時間戳。":"のタイムスタンプ付き。",
+    "● Inseln · 重訪者要的深度":"● Inseln · 重訪者が求める深度","離島深掘":"離島の深掘り",
+    "美麗海・國際通・首里城＝回頭客不需要。能贏的是":"美ら海・国際通り・首里城＝リピーターには不要。勝てるのは",
+    "：跳島路線、在地民宿、無料浮潛點、避開人潮的時段。":"：ホッピング路線、在地の民宿、無料シュノーケル、混雑を避ける時間帯。",
+    "全部 8 座離島 →":"全8離島を見る →","最熱":"人気","慢遊":"スロー","慶良間群島":"慶良間諸島",
+    "那霸 90 分・世界級透明度的「慶良間藍」":"那覇90分・世界級の透明度「慶良間ブルー」",
+    "跳島":"ホッピング","3 天 2 夜":"2泊3日",
+    "跨海大橋、海景咖啡、東洋第一的白砂灘":"海上大橋、海景カフェ、東洋一の白砂ビーチ",
+    "自駕":"自家用車","4 天 3 夜":"3泊4日",
+    "八重山的玄關・川平灣與跳島的起點":"八重山の玄関・川平湾とホッピングの起点",
+    "跳島基地":"ホッピング拠点","川平灣":"川平湾","3 天起":"3日〜",
+    "紅瓦聚落、水牛車、星砂的「最慢島時間」":"赤瓦の集落、水牛車、星砂の「最も遅い島時間」",
+    "聚落":"集落","石垣出發":"石垣発",
+    "● Neu · 部落格還沒寫到的":"● Neu · ブログがまだ書いていない","在地・新店開幕":"在地・新店オープン",
+    "每週更新的新開店與期間限定。":"毎週更新の新店と期間限定。","標註開幕日期":"開店日を明記",
+    "＝鮮度本身就是賣點。":"＝鮮度そのものが売り。","看更多新店 →":"新店をもっと見る →",
+    "2025.06.01 開幕":"2025.06.01 オープン","瀨長島 海景烘焙坊":"瀬長島 海景ベーカリー",
+    "📍 豐見城":"📍 豊見城","· 麵包・咖啡":"· パン・カフェ","2025.05.20 開幕":"2025.05.20 オープン",
+    "北谷 美國村 屋頂酒吧":"北谷 アメリカンビレッジ 屋上バー","· 夕陽・調酒":"· 夕陽・カクテル",
+    "芒果 × 海葡萄 季節甜點":"マンゴー × 海ぶどう 季節スイーツ","📍 那霸":"📍 那覇",
+    "● Shopping · 比重和德國完全不同":"● Shopping · 比重がドイツと全く違う","對台灣旅客，":"台湾の旅行者にとって、",
+    "購物動線的比重是另一個次元":"買い物動線の比重は別次元",
+    "。唐吉訶德、暢貨中心、好市多、藥妝——退稅與必買一次看懂。":"。ドンキ、アウトレット、コストコ、ドラッグストア——免税と必買が一目で。",
+    "完整購物地圖 →":"完全な買い物マップ →","唐吉訶德":"ドン・キホーテ","國際通店":"国際通り店",
+    "24 小時・免稅・必買零食藥品清單。深夜也能逛，行程最後一天的補貨聖地。":"24時間・免税・必買のお菓子と薬リスト。深夜も買える、最終日の補給聖地。",
+    "免稅":"免税","必買清單":"必買リスト","暢貨中心 あしびなー":"アウトレット あしびなー",
+    "機場 15 分":"空港15分","名牌":"ブランド","好市多 南城":"コストコ 南城","會員制":"会員制",
+    "伴手禮":"おみやげ","藥妝比價":"ドラッグストア比較","退稅":"免税","必買藥品":"必買の薬",
+    "泡瀨・在地市場":"泡瀬・在地市場",
+    "● Community · 發現管道和德國不同":"● Community · 発見チャネルがドイツと違う",
+    "在地社團・情報源":"在地の社団・情報源",
+    "台灣的發現不在 YouTube 搜尋，而在":"台湾の発見は YouTube 検索ではなく、",
+    "FB 社團・IG・Threads・LINE・Dcard":"FB社団・IG・Threads・LINE・Dcard",
+    "。我們在這些地方即時同步。":"。私たちはこれらでリアルタイム同期。",
+    "沖繩自由行 社團":"沖縄フリープラン 社団","12.4 萬成員":"12.4万メンバー",
+    "即時問答・最大社群":"即時Q&A・最大コミュニティ","8.6 萬追蹤":"8.6万フォロー",
+    "打卡點・限動地圖":"映えスポット・ストーリー地図","新店・公休第一手":"新店・定休を最速で",
+    "Dcard 旅遊板":"Dcard 旅行板","熱門":"人気","心得・避雷分享":"レビュー・地雷回避",
+    "訂閱制":"購読制","颱風・船班推播":"台風・船便のプッシュ",
+    "沖繩租車・跳島票券一次比價":"沖縄レンタカー・離島チケットを一括比較",
+    "台灣駕照＋日文譯本（JAF）流程繁中已詳述，這裡直接帶你到比價與預約。離島船票、一日遊也一併。":"台湾の運転免許＋日本語訳文（JAF）の流れは繁体字で詳述済み。ここでは比較・予約へ直接。離島の船票・日帰りも一括。",
+    "Tabirai 租車比價 →":"Tabirai レンタカー比較 →",
+    "沖繩攻略":"沖縄攻略","OKINAWA · 在地深度誌":"OKINAWA · 在地ディープ誌",
+    "為重訪沖繩的台灣旅客而生。離島深度、在地鮮度、即時公休與船班——熱門部落格不會即時更新的那些，我們專做。":"沖縄リピーターの台湾旅行者のために。離島の深度、在地の鮮度、即時の定休と船便——人気ブログが更新しない、それを専門に。",
+    "實用":"実用","租車比價":"レンタカー比較","追蹤我們":"フォロー","Facebook 社團":"Facebook 社団",
+    "沖繩攻略 Okinawa · 繁體中文版 · 台湾市場向けデザイン案 2026":"沖縄攻略 Okinawa · 繁体字版 · 台湾市場向けデザイン案 2026"
+  };
+
+  var SKIP = { SCRIPT: 1, STYLE: 1, NOSCRIPT: 1, CODE: 1 };
+  var snaps = [];
+  (function walk(node) {
+    for (var n = node.firstChild; n; n = n.nextSibling) {
+      if (n.nodeType === 3) { if (n.nodeValue.trim()) snaps.push({ node: n, zh: n.nodeValue }); }
+      else if (n.nodeType === 1 && !SKIP[n.tagName]) walk(n);
+    }
+  })(document.body);
+
+  var attrEls = [];
+  document.querySelectorAll('[data-shot]').forEach(function (el) { attrEls.push({ el: el, attr: 'data-shot', zh: el.getAttribute('data-shot') }); });
+  document.querySelectorAll('[aria-label]').forEach(function (el) { attrEls.push({ el: el, attr: 'aria-label', zh: el.getAttribute('aria-label') }); });
+
+  function tr(s) {
+    var lead = s.match(/^\s*/)[0], trail = s.match(/\s*$/)[0], core = s.trim();
+    return dict[core] != null ? lead + dict[core] + trail : null;
+  }
+  function setLang(l) {
+    var ja = l === 'ja';
+    snaps.forEach(function (s) { if (ja) { var t = tr(s.zh); s.node.nodeValue = t != null ? t : s.zh; } else s.node.nodeValue = s.zh; });
+    attrEls.forEach(function (a) { var c = a.zh.trim(); a.el.setAttribute(a.attr, ja && dict[c] ? dict[c] : a.zh); });
+    document.body.classList.toggle('lang-ja', ja);
+    document.documentElement.lang = ja ? 'ja' : 'zh-Hant';
+    document.querySelectorAll('#langTog button').forEach(function (b) { b.classList.toggle('on', b.dataset.l === l); });
+    try { localStorage.setItem('tw_lang', l); } catch (e) {}
+  }
+  document.querySelectorAll('#langTog button').forEach(function (b) { b.addEventListener('click', function () { setLang(b.dataset.l); }); });
+  var init = 'zh';
+  try { init = localStorage.getItem('tw_lang') || 'zh'; } catch (e) {}
+  setLang(init);
+})();
+</script>
+
+
+
+</body></html>
