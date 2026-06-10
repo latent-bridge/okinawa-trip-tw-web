@@ -1341,12 +1341,12 @@
   --ink:       oklch(0.30 0.035 48);
   --ink-soft:  oklch(0.47 0.030 52);
   --ink-faint: oklch(0.62 0.022 56);
-  --coral:     oklch(0.655 0.165 32);
-  --coral-deep:oklch(0.555 0.150 31);
+  --coral:     oklch(0.681 0.170 34);  /* 珊瑚橘 #EE6A4C（brand-tw パレット） */
+  --coral-deep:oklch(0.581 0.155 33);
   --coral-tint:oklch(0.93 0.045 38);
   --sand:      oklch(0.815 0.072 70);
   --sand-deep: oklch(0.70 0.085 66);
-  --sea:       oklch(0.66 0.085 215);
+  --sea:       oklch(0.639 0.097 195); /* 海 #2E9E9E（brand-tw パレット） */
   --sea-tint:  oklch(0.93 0.030 210);
   --line:      oklch(0.885 0.020 72);
   --line-soft: oklch(0.925 0.014 72);
@@ -1520,7 +1520,7 @@ body.anim-on .fade-in { animation: fadeUp .5s ease both; }
     --tw-font: "Noto Sans TC", system-ui, sans-serif;
     --hot:   oklch(0.60 0.16 18);
     --hot-t: oklch(0.95 0.04 22);
-    --teal:  oklch(0.62 0.10 205);
+    --teal:  oklch(0.639 0.097 195); /* 海 #2E9E9E（brand-tw パレット） */
     --teal-t:oklch(0.94 0.035 205);
     --grape: oklch(0.55 0.13 305);
     --gold:  oklch(0.74 0.12 78);
@@ -1748,3 +1748,51 @@ body.anim-on .fade-in { animation: fadeUp .5s ease both; }
 /* 離島カードの運賃・所要（実データ・data-jpyでTWD自動併記） */
 .icard__fare { font: 500 .78rem/1.45 var(--font-mono); color: var(--ink-soft); margin: .45rem 0 .15rem; letter-spacing: .01em; }
 .icard__fare span[data-jpy] { color: var(--coral-deep); font-weight: 600; }
+
+/* ===== 交陪リブランド（2026-06-10） ===== */
+
+/* ヘッダー: 連環マーク（枠なし logo-rings＝帯/ヘッダー内ルール） */
+.brand__logo { width: 42px; height: 42px; flex: none; }
+
+/* ヒーロー featured: マスコット・キービジュアル（石虎 × シーサー＝交陪） */
+.tile--mascots {
+  background: linear-gradient(160deg, oklch(0.95 0.04 38), oklch(0.93 0.035 195));
+  display: flex; flex-direction: column; justify-content: flex-end;
+  border: 1px solid var(--line-soft);
+}
+.tile--mascots .mascots {
+  flex: 1 1 auto; min-height: 0;
+  display: flex; align-items: flex-end; justify-content: center; gap: 4%;
+  padding: 22px 18px 0;
+}
+.tile--mascots .mascots img { height: auto; max-height: 100%; max-width: 46%; object-fit: contain; object-position: bottom; }
+.tile--mascots .cap { position: static; color: var(--ink); padding: 14px 18px 18px; }
+.tile--mascots .cap .t { color: var(--ink); text-shadow: none; }
+.tile--mascots .cap .lead { color: var(--ink-soft); text-shadow: none; max-width: 100%; }
+.tile--mascots .cap .row span { background: oklch(1 0 0 / .65); color: var(--ink-soft); backdrop-filter: none; }
+
+/* bento の小タイル＝実在セクションへのリンク */
+a.tile { display: block; transition: transform .15s, box-shadow .2s; }
+a.tile:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+/* 行が auto になる幅では cap(absolute) だけだと高さが潰れるため */
+@media (max-width: 1000px) { a.tile { min-height: 150px; } }
+
+/* 交陪セクション（#kaupue） */
+.kp { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.kpcard {
+  background: var(--surface); border: 1px solid var(--line-soft);
+  border-radius: var(--r-lg); padding: 20px 20px 22px;
+}
+.kpcard__ic {
+  width: 44px; height: 44px; border-radius: 13px; display: grid; place-items: center;
+  font-size: 22px; background: linear-gradient(145deg, var(--coral-tint), var(--sea-tint));
+  margin-bottom: 12px;
+}
+.kpcard h3 { font-size: 17px; font-weight: 900; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.kpcard p { color: var(--ink-soft); font-size: 13.5px; margin-top: 8px; line-height: 1.7; }
+.pill-soon {
+  font-size: 10.5px; font-weight: 700; letter-spacing: .04em; white-space: nowrap;
+  background: var(--surface-2); color: var(--ink-faint); border: 1px solid var(--line);
+  padding: 2px 9px; border-radius: var(--pill);
+}
+@media (max-width: 1000px) { .kp { grid-template-columns: 1fr; } }

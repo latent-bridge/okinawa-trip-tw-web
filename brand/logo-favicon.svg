@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56">
+  <!-- favicon: drop the thin split frame, thicken the rings so it reads at 16px -->
+  <circle cx="28" cy="28" r="28" fill="#FBF1E2"/>
+  <circle cx="22" cy="28" r="10.5" fill="none" stroke="#EE6A4C" stroke-width="4.6"/>
+  <circle cx="34" cy="28" r="10.5" fill="none" stroke="#2E9E9E" stroke-width="4.6"/>
+</svg>
