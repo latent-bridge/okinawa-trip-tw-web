@@ -338,7 +338,10 @@ section.sec { padding: 42px 0; }
 .foot__brand { font-weight: 900; font-size: 20px; color: var(--cream); }
 .foot__brand small { display: block; font-family: var(--font-mono); font-size: 9px; letter-spacing: .2em; color: oklch(0.68 0.018 76); margin-top: 3px; }
 .foot__note { font-size: 12.5px; color: oklch(0.74 0.018 76); margin-top: 12px; max-width: 340px; line-height: 1.7; }
-.foot__bottom { border-top: 1px solid oklch(0.40 0.024 52); margin-top: 26px; padding-top: 16px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-family: var(--font-mono); font-size: 11.5px; color: oklch(0.64 0.018 76); }
+.foot__credits { margin-top: 24px; font-size: 10.5px; line-height: 1.8; color: oklch(0.60 0.018 76); }
+.foot__credits a { display: inline; padding: 0; font-size: inherit; color: oklch(0.70 0.018 76); text-decoration: underline; text-underline-offset: 2px; }
+.foot__credits a:hover { color: var(--cream); }
+.foot__bottom { border-top: 1px solid oklch(0.40 0.024 52); margin-top: 14px; padding-top: 16px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-family: var(--font-mono); font-size: 11.5px; color: oklch(0.64 0.018 76); }
 .foot__bottom span { white-space: nowrap; }
 
 /* 「照片為示意圖」＝固定リボンをやめ、フッター直下のサブバーに統合 */
