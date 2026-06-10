@@ -397,3 +397,30 @@ section.sec { padding: 42px 0; }
 /* 離島カードの運賃・所要（実データ・data-jpyでTWD自動併記） */
 .icard__fare { font: 500 .78rem/1.5 var(--font-mono); color: var(--ink-soft); margin: .5rem 0 .15rem; letter-spacing: .01em; }
 .icard__fare span[data-jpy] { color: var(--coral-deep); font-weight: 600; }
+
+/* ===== 離島の個別ページ（2026-06-10） ===== */
+.crumbs { font-size: 12.5px; color: var(--ink-faint); margin: 18px 0 0; }
+.crumbs a { color: var(--ink-soft); }
+.crumbs a:hover { color: var(--coral-deep); }
+
+.ihero { padding: 0 0 8px; }
+.ihero__media { height: clamp(220px, 34vw, 380px); border-radius: var(--r-xl); overflow: hidden; position: relative; margin-top: 14px; }
+.ihero__body { padding: 0; }
+.ihero h1 { font-size: clamp(26px, 3.6vw, 40px); font-weight: 900; margin-top: 16px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.ihero h1 small { font-family: var(--font-mono); font-size: 13px; color: var(--ink-faint); font-weight: 500; letter-spacing: .08em; }
+.ihero__lead { color: var(--ink-soft); font-size: 15.5px; margin-top: 10px; max-width: 640px; }
+.ihero__pills { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+
+.ifacts { background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--r-lg); padding: 18px 20px; }
+.ifacts .fline { font-size: 14px; padding: 7px 0; border-bottom: 1px dashed var(--line-soft); align-items: baseline; }
+.ifacts .fline:last-child { border-bottom: none; }
+.ifacts .fline b { color: var(--ink); font-weight: 700; flex: none; min-width: 6.5em; }
+.ifacts .fline span[data-jpy] { color: var(--coral-deep); font-weight: 600; font-family: var(--font-mono); }
+.ifacts .fline a { color: var(--sea-deep); text-decoration: underline; text-underline-offset: 2px; }
+.ifacts__note { margin-top: 10px; font-size: 12px; color: var(--ink-faint); }
+
+.iphoto { border-radius: var(--r-lg); overflow: hidden; margin-top: 18px; }
+.iphoto img { width: 100%; height: auto; display: block; }
+.iphoto figcaption { font-size: 12px; color: var(--ink-faint); padding: 8px 4px 0; }
+
+@media (max-width: 640px) { .ihero__media { border-radius: var(--r-lg); } }

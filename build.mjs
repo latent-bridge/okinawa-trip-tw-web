@@ -1,40 +1,27 @@
 // 即時情報の自動更新ビルド（バックエンド不要・cron/Actionsで定期実行）。
-// index.html 内の <!--KEY:start-->...<!--KEY:end--> をAPI取得値で置換する（冪等）。
+// ルート直下の *.html を対象に、<!--KEY:start-->...<!--KEY:end--> をAPI取得値で置換し（冪等・
+// マーカーは index.html のみに存在）、data-jpy="円額" 要素へ TWD 併記を焼き込む（全ページ）。
 // 取得: 為替(exchangerate-api 無料・TWD基準) / 天気(気象庁 forecast JSON)。
 // 取得失敗時はフォールバック（既存の中身を保持）して落とさない。
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const FILE = new URL('./index.html', import.meta.url);
-let html = readFileSync(FILE, 'utf8');
-
-function repl(key, value) {
-  const re = new RegExp(`(<!--${key}:start-->)[\\s\\S]*?(<!--${key}:end-->)`);
-  if (re.test(html)) html = html.replace(re, (m, a, b) => a + value + b);
-}
+const ROOT = dirname(fileURLToPath(import.meta.url));
+const FILES = readdirSync(ROOT).filter(f => f.endsWith('.html')).map(f => join(ROOT, f));
 
 // JST の今日（CIはUTC）
 const jst = new Date(Date.now() + 9 * 3600 * 1000);
 const mm = jst.getUTCMonth() + 1, dd = jst.getUTCDate();
 const stamp = `${mm}/${dd}`;
 
-// ── 為替 TWD→JPY ───────────────────────────────
+// ── 取得（為替 TWD→JPY / 天気） ───────────────────
 let jpyPerTwd = null;
 try {
   const fx = await (await fetch('https://open.er-api.com/v6/latest/TWD')).json();
-  jpyPerTwd = fx?.rates?.JPY;
-  if (jpyPerTwd) {
-    const yenPer100Twd = Math.round(jpyPerTwd * 100);     // NT$100 ≈ ¥X
-    const twdPer100Yen = (100 / jpyPerTwd).toFixed(1);    // ¥100 ≈ NT$Y
-    repl('FX_BIG', `NT$100 ≈ ¥${yenPer100Twd}`);
-    repl('FX_LINE', `¥100 ≈ NT$${twdPer100Yen} · 1 TWD ≈ ¥${jpyPerTwd.toFixed(2)}`);
-    repl('FX_DATE', stamp);
-    // サイト内の日本円価格を自動でTWD併記（data-jpy="2180" を持つ要素）
-    html = html.replace(/(<[^>]*\sdata-jpy="(\d+)"[^>]*>)[\s\S]*?(<\/[a-z]+>)/gi,
-      (m, open, jpy, close) => `${open}¥${Number(jpy).toLocaleString()}（約 NT$${Math.round(jpy / jpyPerTwd / 5) * 5}）${close}`);
-  }
+  jpyPerTwd = fx?.rates?.JPY ?? null;
 } catch (e) { console.error('FX fetch failed:', e.message); }
 
-// ── 天気（気象庁 forecast JSON・weatherCode先頭で簡易分類） ──
 const WMAP = { '1': '晴', '2': '多雲', '3': '雨', '4': '雪' };
 async function wx(code) {
   try {
@@ -45,9 +32,6 @@ async function wx(code) {
   } catch (e) { console.error('JMA fail', code, e.message); return ''; }
 }
 const [honto, miyako, yaeyama] = await Promise.all([wx('471000'), wx('472000'), wx('474000')]);
-if (honto) { repl('WX_HONTO', honto); repl('WX_BIG', honto); }
-if (miyako) repl('WX_MIYAKO', miyako);
-if (yaeyama) repl('WX_YAEYAMA', yaeyama);
 
 // ── 季節カレンダー（人工作成・客観的な季節事象） ──
 const SEASON = {
@@ -64,11 +48,31 @@ const SEASON = {
   11: ['旅行適期・涼爽'],
   12: ['鯨魚觀察開始', '溫暖な冬・文化散策'],
 };
-const items = (SEASON[mm] || []).map(t => `<div class="fline"><span class="st st-open">當季</span>${t}</div>`).join('\n            ');
-repl('SEASON_MONTH', `${mm}月`);
-if (items) repl('SEASON_ITEMS', '\n            ' + items + '\n          ');
+const seasonItems = (SEASON[mm] || []).map(t => `<div class="fline"><span class="st st-open">當季</span>${t}</div>`).join('\n            ');
 
-repl('UPDATED', stamp);
+// ── 各ページへ適用 ───────────────────────────────
+for (const file of FILES) {
+  let html = readFileSync(file, 'utf8');
+  const repl = (key, value) => {
+    const re = new RegExp(`(<!--${key}:start-->)[\\s\\S]*?(<!--${key}:end-->)`);
+    if (re.test(html)) html = html.replace(re, (m, a, b) => a + value + b);
+  };
 
-writeFileSync(FILE, html);
-console.log('built:', { stamp, jpyPerTwd, honto, miyako, yaeyama });
+  if (jpyPerTwd) {
+    repl('FX_BIG', `NT$100 ≈ ¥${Math.round(jpyPerTwd * 100)}`);
+    repl('FX_LINE', `¥100 ≈ NT$${(100 / jpyPerTwd).toFixed(1)} · 1 TWD ≈ ¥${jpyPerTwd.toFixed(2)}`);
+    repl('FX_DATE', stamp);
+    // 日本円価格の TWD 併記（data-jpy="2180" を持つ要素・全ページ）
+    html = html.replace(/(<[^>]*\sdata-jpy="(\d+)"[^>]*>)[\s\S]*?(<\/[a-z]+>)/gi,
+      (m, open, jpy, close) => `${open}¥${Number(jpy).toLocaleString()}（約 NT$${Math.round(jpy / jpyPerTwd / 5) * 5}）${close}`);
+  }
+  if (honto) { repl('WX_HONTO', honto); repl('WX_BIG', honto); }
+  if (miyako) repl('WX_MIYAKO', miyako);
+  if (yaeyama) repl('WX_YAEYAMA', yaeyama);
+  repl('SEASON_MONTH', `${mm}月`);
+  if (seasonItems) repl('SEASON_ITEMS', '\n            ' + seasonItems + '\n          ');
+  repl('UPDATED', stamp);
+
+  writeFileSync(file, html);
+}
+console.log('built:', { files: FILES.length, stamp, jpyPerTwd, honto, miyako, yaeyama });
