@@ -1,1735 +1,381 @@
-/* latin-ext */
-/* @font-face omitted */
-/* latin */
-/* @font-face omitted */
-/* latin-ext */
-/* @font-face omitted */
-/* latin */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* cyrillic */
-/* @font-face omitted */
-/* vietnamese */
-/* @font-face omitted */
-/* latin-ext */
-/* @font-face omitted */
-/* latin */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* cyrillic */
-/* @font-face omitted */
-/* vietnamese */
-/* @font-face omitted */
-/* latin-ext */
-/* @font-face omitted */
-/* latin */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* cyrillic */
-/* @font-face omitted */
-/* vietnamese */
-/* @font-face omitted */
-/* latin-ext */
-/* @font-face omitted */
-/* latin */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* cyrillic */
-/* @font-face omitted */
-/* vietnamese */
-/* @font-face omitted */
-/* latin-ext */
-/* @font-face omitted */
-/* latin */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* cyrillic */
-/* @font-face omitted */
-/* vietnamese */
-/* @font-face omitted */
-/* latin-ext */
-/* @font-face omitted */
-/* latin */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* cyrillic */
-/* @font-face omitted */
-/* vietnamese */
-/* @font-face omitted */
-/* latin-ext */
-/* @font-face omitted */
-/* latin */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* cyrillic */
-/* @font-face omitted */
-/* vietnamese */
-/* @font-face omitted */
-/* latin-ext */
-/* @font-face omitted */
-/* latin */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* cyrillic */
-/* @font-face omitted */
-/* vietnamese */
-/* @font-face omitted */
-/* latin-ext */
-/* @font-face omitted */
-/* latin */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* cyrillic */
-/* @font-face omitted */
-/* latin-ext */
-/* @font-face omitted */
-/* latin */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* cyrillic */
-/* @font-face omitted */
-/* latin-ext */
-/* @font-face omitted */
-/* latin */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* @font-face omitted */
-/* cyrillic */
-/* @font-face omitted */
-/* latin-ext */
-/* @font-face omitted */
-/* latin */
-/* @font-face omitted */
-
 /* ============================================================
-   OKINAWA KOMPASS — Design System
-   Warm coral / sand earth tones · friendly casual
+   沖繩交陪 OKINAWA · KAU-PUÊ — 台湾版トップ
+   2026-06-10 ビジュアル刷新
+   ・パレットはブランド規定の5色（珊瑚橘/海/暖陽/奶油/墨）のみ
+   ・フォントは Noto Sans TC 基軸 ＋ DM Mono（数値・タイムスタンプ）
+   ・写真スロット（.shot）は「正直なプレースホルダー」：
+     <img> を中に置くだけで全面カバー表示に切り替わる（崩れない）
+   ・キャプションは写真の上に重ねない（差し込み後も可読性が落ちない）
    ============================================================ */
 
-/* ---- Base tokens (Style: "Sand & Koralle" / default) ---- */
+/* ---- tokens ---- */
 :root {
-  --bg:        oklch(0.968 0.016 72);
-  --bg-2:      oklch(0.935 0.024 68);
-  --surface:   oklch(0.995 0.006 78);
-  --surface-2: oklch(0.978 0.012 74);
-  --ink:       oklch(0.30 0.035 48);
-  --ink-soft:  oklch(0.47 0.030 52);
-  --ink-faint: oklch(0.62 0.022 56);
-  --coral:     oklch(0.681 0.170 34);  /* 珊瑚橘 #EE6A4C（brand-tw パレット） */
-  --coral-deep:oklch(0.581 0.155 33);
-  --coral-tint:oklch(0.93 0.045 38);
-  --sand:      oklch(0.815 0.072 70);
-  --sand-deep: oklch(0.70 0.085 66);
-  --sea:       oklch(0.639 0.097 195); /* 海 #2E9E9E（brand-tw パレット） */
-  --sea-tint:  oklch(0.93 0.030 210);
-  --line:      oklch(0.885 0.020 72);
-  --line-soft: oklch(0.925 0.014 72);
+  /* brand-tw パレット */
+  --cream:      #FBF1E2;                    /* 奶油 */
+  --ink:        #3B2D28;                    /* 墨 */
+  --coral:      #EE6A4C;                    /* 珊瑚橘 */
+  --sea:        #2E9E9E;                    /* 海 */
+  --sun:        #F4A24B;                    /* 暖陽 */
 
-  --r-sm: 10px;
-  --r-md: 16px;
-  --r-lg: 24px;
-  --r-xl: 34px;
-  --pill: 999px;
+  /* 派生トーン（oklch で同系統に揃える） */
+  --bg:         oklch(0.962 0.024 79);      /* 奶油ベースの地 */
+  --surface:    oklch(0.988 0.012 84);      /* カード面 */
+  --surface-2:  oklch(0.955 0.020 80);
+  --ink-soft:   oklch(0.43 0.030 48);
+  --ink-faint:  oklch(0.57 0.024 52);
+  --coral-deep: oklch(0.56 0.150 32);
+  --coral-tint: oklch(0.93 0.040 38);
+  --sea-deep:   oklch(0.50 0.085 195);
+  --sea-tint:   oklch(0.93 0.032 200);
+  --sun-deep:   oklch(0.62 0.115 70);
+  --sun-tint:   oklch(0.945 0.045 82);
+  --line:       oklch(0.875 0.024 76);
+  --line-soft:  oklch(0.918 0.018 78);
 
-  --shadow-sm: 0 1px 2px oklch(0.45 0.05 50 / 0.06), 0 2px 8px oklch(0.45 0.05 50 / 0.05);
-  --shadow-md: 0 4px 14px oklch(0.45 0.06 45 / 0.10), 0 2px 6px oklch(0.45 0.06 45 / 0.06);
-  --shadow-lg: 0 18px 50px oklch(0.42 0.07 42 / 0.16), 0 6px 16px oklch(0.42 0.07 42 / 0.08);
+  --r-sm: 10px; --r-md: 14px; --r-lg: 20px; --r-xl: 28px; --pill: 999px;
 
-  --font-display: "Bricolage Grotesque", "Zen Maru Gothic", "Hanken Grotesk", system-ui, sans-serif;
-  --font-body: "Hanken Grotesk", "Zen Kaku Gothic New", system-ui, -apple-system, sans-serif;
-  --font-mono: "DM Mono", "Zen Kaku Gothic New", ui-monospace, "SF Mono", monospace;
+  --shadow-sm: 0 1px 2px oklch(0.40 0.05 50 / 0.05), 0 2px 8px oklch(0.40 0.05 50 / 0.05);
+  --shadow-md: 0 4px 14px oklch(0.40 0.06 45 / 0.10), 0 2px 6px oklch(0.40 0.06 45 / 0.06);
 
-  --maxw: 1180px;
+  --tw-font: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+  --font-mono: "DM Mono", "Noto Sans TC", ui-monospace, monospace;
+
+  --maxw: 1240px;
 }
+body.lang-ja { --tw-font: "Zen Kaku Gothic New", "Noto Sans TC", system-ui, sans-serif; }
 
-/* ---- Style B: "Sonnenuntergang" (Sunset magazine) ---- */
-/* Note: accent (--coral*) is controlled by the accent tweak on :root, so style
-   blocks only set background / neutral / mood tones — the two compose freely. */
-[data-style="sunset"] {
-  --bg:        oklch(0.945 0.028 50);
-  --bg-2:      oklch(0.905 0.040 44);
-  --surface:   oklch(0.985 0.012 56);
-  --surface-2: oklch(0.962 0.022 52);
-  --ink:       oklch(0.285 0.045 36);
-  --ink-soft:  oklch(0.46 0.045 38);
-  --ink-faint: oklch(0.60 0.032 42);
-  --sand:      oklch(0.78 0.090 56);
-  --sand-deep: oklch(0.66 0.100 50);
-  --line:      oklch(0.86 0.028 50);
-  --line-soft: oklch(0.905 0.020 50);
-}
-
-/* ---- Style C: "Strandweiß" (Airy beach minimal) ---- */
-[data-style="beach"] {
-  --bg:        oklch(0.988 0.006 80);
-  --bg-2:      oklch(0.965 0.010 78);
-  --surface:   oklch(1 0 0);
-  --surface-2: oklch(0.985 0.006 80);
-  --ink:       oklch(0.27 0.020 230);
-  --ink-soft:  oklch(0.46 0.018 220);
-  --ink-faint: oklch(0.62 0.014 210);
-  --sand:      oklch(0.84 0.045 78);
-  --sand-deep: oklch(0.74 0.055 72);
-  --sea:       oklch(0.64 0.095 218);
-  --line:      oklch(0.91 0.010 220);
-  --line-soft: oklch(0.945 0.008 220);
-  --shadow-lg: 0 24px 60px oklch(0.50 0.03 230 / 0.12), 0 6px 16px oklch(0.50 0.03 230 / 0.06);
-}
-
-/* ---- Reset ---- */
+/* ---- reset ---- */
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
-  font-family: var(--font-body);
+  font-family: var(--tw-font);
   background: var(--bg);
   color: var(--ink);
-  line-height: 1.55;
-  font-size: 17px;
+  font-size: 16px;
+  line-height: 1.7;               /* 繁体字＝行間に余裕 */
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-img { max-width: 100%; display: block; }
-button { font: inherit; color: inherit; cursor: pointer; }
+img { display: block; max-width: 100%; }
 a { color: inherit; text-decoration: none; }
-h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height: 1.04; margin: 0; letter-spacing: -0.01em; }
+button { font: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+h1, h2, h3, h4 { font-family: var(--tw-font); margin: 0; line-height: 1.3; letter-spacing: 0; font-style: normal; }
 p { margin: 0; }
 ::selection { background: var(--coral-tint); }
+.wrap { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
 
-/* ---- Layout helpers ---- */
-.wrap { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 22px; }
-.kicker {
-  font-family: var(--font-mono);
-  font-size: 12.5px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--coral-deep);
-  font-weight: 500;
-}
-.eyebrow-line { display: inline-flex; align-items: center; gap: 10px; }
-.eyebrow-line::before { content: ""; width: 22px; height: 2px; background: var(--coral); border-radius: 2px; }
-
-/* ---- Buttons ---- */
-.btn {
-  display: inline-flex; align-items: center; justify-content: center; gap: 9px;
-  border: none; border-radius: var(--pill);
-  padding: 13px 22px; font-weight: 600; font-size: 15.5px;
-  transition: transform .15s ease, box-shadow .2s ease, background .2s ease;
-  white-space: nowrap;
-}
-.btn svg { width: 18px; height: 18px; }
-.btn-primary { background: var(--coral); color: oklch(0.99 0.01 60); box-shadow: var(--shadow-sm); }
-.btn-primary:hover { background: var(--coral-deep); transform: translateY(-2px); box-shadow: var(--shadow-md); }
-.btn-ghost { background: var(--surface); color: var(--ink); border: 1.5px solid var(--line); }
-.btn-ghost:hover { border-color: var(--coral); color: var(--coral-deep); transform: translateY(-2px); }
-.btn-text { background: transparent; padding: 8px 4px; color: var(--coral-deep); }
-.btn-text:hover { gap: 13px; }
-
-/* ---- Image placeholder ---- */
-.ph {
+/* ============================================================
+   写真スロット .shot — 正直なプレースホルダー
+   ・空のとき: 奶油系の淡い斜めストライプ ＋ 中央にラベルチップ
+     （--h で色相だけ僅かに変わる。観光広告風グラデは廃止）
+   ・<img> を入れると全面カバー表示・ラベルは自動で消える
+   ============================================================ */
+.shot {
   position: relative; overflow: hidden;
   background:
     repeating-linear-gradient(135deg,
-      oklch(0.86 0.05 var(--ph-h, 55) / 0.55) 0 14px,
-      oklch(0.90 0.035 var(--ph-h, 55) / 0.55) 14px 28px),
-    linear-gradient(150deg, var(--sand) 0%, var(--coral-tint) 100%);
-  display: flex; align-items: flex-end;
-  color: oklch(0.32 0.05 45);
+      oklch(0.952 0.018 var(--h, 79) / .75) 0 10px,
+      transparent 10px 20px),
+    oklch(0.924 0.028 var(--h, 79));
 }
-.ph::after {
-  content: attr(data-cam);
-  position: absolute; top: 12px; left: 12px;
-  font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.12em;
-  text-transform: uppercase;
-  background: oklch(0.99 0.01 60 / 0.82); color: var(--ink-soft);
-  padding: 4px 9px; border-radius: var(--pill);
-  backdrop-filter: blur(4px);
+.shot::after {
+  content: "📷 " attr(data-shot);
+  position: absolute; inset: 0; margin: auto;
+  width: fit-content; height: fit-content;
+  font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .05em;
+  color: var(--ink-soft);
+  background: oklch(0.99 0.008 84 / .88);
+  border: 1px solid oklch(0.88 0.02 78);
+  padding: 4px 11px; border-radius: var(--pill);
+  white-space: nowrap; max-width: calc(100% - 16px);
+  overflow: hidden; text-overflow: ellipsis;
 }
-.ph-label {
-  font-family: var(--font-mono); font-size: 12.5px; letter-spacing: 0.04em;
-  margin: 0; padding: 14px 16px; line-height: 1.3;
-  color: oklch(0.30 0.05 42);
-  text-shadow: 0 1px 0 oklch(0.98 0.02 60 / 0.6);
+.shot > img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover;
+}
+.shot:has(> img)::after { display: none; }
+
+/* shot 内のバッジ・メタ（実態が揃うまで末尾ブロックで非表示） */
+.meta-likes { position: absolute; right: 9px; bottom: 8px; z-index: 2; white-space: nowrap;
+  font-family: var(--font-mono); font-size: 10.5px; color: #fff; display: inline-flex; gap: 9px;
+  text-shadow: 0 1px 3px oklch(0.25 0.04 50 / .6); }
+.badge-hot { position: absolute; left: 9px; top: 9px; z-index: 2; white-space: nowrap;
+  font-size: 11px; font-weight: 700; background: var(--coral); color: #fff; padding: 3px 9px; border-radius: var(--pill); }
+.badge-new { position: absolute; left: 9px; top: 9px; z-index: 2; white-space: nowrap;
+  font-size: 11px; font-weight: 700; background: var(--sea); color: #fff; padding: 3px 9px; border-radius: var(--pill); }
+.badge-soft { background: oklch(1 0 0 / .9); color: var(--ink); }
+
+/* ============================================================
+   header
+   ============================================================ */
+.head { position: sticky; top: 0; z-index: 60;
+  background: oklch(0.965 0.022 80 / .92);
+  backdrop-filter: blur(14px) saturate(1.2);
+  border-bottom: 1px solid var(--line-soft); }
+.head__bar { display: flex; align-items: center; gap: 18px; height: 64px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; }
+.brand__logo { width: 42px; height: 42px; flex: none; }
+.brand__tx { font-weight: 900; font-size: 19px; letter-spacing: .02em; line-height: 1.15; }
+.brand__tx small { display: block; font-family: var(--font-mono); font-size: 8.5px; letter-spacing: .22em; color: var(--ink-faint); font-weight: 500; white-space: nowrap; }
+.nav { display: flex; align-items: center; gap: 2px; margin-left: 8px; }
+.nav a { padding: 9px 13px; border-radius: var(--pill); font-weight: 700; font-size: 15px; color: var(--ink-soft); display: inline-flex; align-items: center; gap: 7px; white-space: nowrap; }
+.nav a:hover { background: var(--surface); color: var(--ink); box-shadow: var(--shadow-sm); }
+.nav a .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--coral); }
+.head__right { margin-left: auto; display: flex; align-items: center; gap: 9px; }
+.search { display: inline-flex; align-items: center; gap: 8px; background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--pill); padding: 8px 14px; color: var(--ink-faint); font-size: 13.5px; }
+.search svg { width: 15px; height: 15px; }
+.btn-line { background: #06C755; color: #fff; font-weight: 700; font-size: 14px; padding: 9px 15px; border-radius: var(--pill); display: inline-flex; align-items: center; gap: 7px; }
+.btn-line svg { width: 16px; height: 16px; }
+.lang-tog { display: inline-flex; background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--pill); padding: 3px; gap: 2px; flex: none; }
+.lang-tog button { font-size: 12.5px; font-weight: 700; color: var(--ink-faint); padding: 6px 11px; border-radius: var(--pill); white-space: nowrap; }
+.lang-tog button.on { background: var(--ink); color: var(--cream); }
+
+/* ---- live ticker（実態が揃うまで非表示。復帰時用に維持） ---- */
+.ticker { background: var(--ink); color: var(--cream); overflow: hidden; }
+.ticker__in { display: flex; align-items: center; gap: 14px; height: 38px; }
+.ticker__tag { flex: none; font-size: 12px; font-weight: 700; background: var(--coral); color: #fff; padding: 4px 11px; border-radius: var(--pill); display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.ticker__tag .pulse { width: 7px; height: 7px; border-radius: 50%; background: #fff; animation: pulse 1.4s infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+.ticker__track { display: flex; gap: 34px; white-space: nowrap; animation: marq 30s linear infinite; font-size: 13px; }
+.ticker__track span b { color: var(--sun); }
+@keyframes marq { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .ticker__track { animation: none; } }
+
+/* ============================================================
+   hero（bento）
+   ============================================================ */
+.hero { padding: 30px 0 8px; }
+.hero__top { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; margin-bottom: 18px; flex-wrap: wrap; }
+.hero__k { display: inline-flex; align-items: center; gap: 9px; font-size: 13px; font-weight: 700; color: var(--coral-deep); letter-spacing: .06em; }
+.hero__k::before { content: ""; width: 22px; height: 3px; border-radius: 2px; background: var(--coral); }
+.hero__h { font-size: clamp(30px, 4.4vw, 50px); font-weight: 900; letter-spacing: .01em; line-height: 1.22; margin-top: 8px; }
+.hero__h em { font-style: normal; color: var(--coral-deep);
+  text-decoration: underline; text-decoration-color: var(--sun); text-decoration-thickness: 5px; text-underline-offset: 7px; }
+.hero__sub { color: var(--ink-soft); font-size: 16px; margin-top: 12px; max-width: 580px; text-wrap: pretty; }
+.hero__sub b { color: var(--ink); }
+.repeat-pick { display: inline-flex; background: var(--surface); border: 1px solid var(--line); border-radius: var(--pill); padding: 5px; gap: 3px; box-shadow: var(--shadow-sm); }
+.repeat-pick button { font-size: 13.5px; font-weight: 700; color: var(--ink-soft); padding: 8px 14px; border-radius: var(--pill); white-space: nowrap; }
+.repeat-pick button.on { background: var(--coral); color: #fff; }
+
+.bento { display: grid; grid-template-columns: 1.7fr 1fr 1fr; grid-template-rows: 205px 205px; gap: 14px; }
+.bento__feat { grid-row: span 2; }
+
+/* タイル＝「写真エリアの下にキャプション」。ラベルとタグが重ならず、
+   写真が入っても文字が写真に乗らない */
+.tile { position: relative; display: flex; flex-direction: column;
+  background: var(--surface); border: 1px solid var(--line-soft);
+  border-radius: var(--r-lg); overflow: hidden; }
+a.tile { transition: transform .15s ease, box-shadow .2s ease, border-color .2s ease; }
+a.tile:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); border-color: var(--line); }
+.tile__media { flex: 1 1 auto; min-height: 0; }
+.tile .cap { padding: 11px 15px 13px; }
+.tile .cap .t { font-weight: 900; font-size: 16px; line-height: 1.35;
+  display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+a.tile .cap .t::after { content: "→"; font-weight: 700; color: var(--coral); flex: none; transition: transform .15s ease; }
+a.tile:hover .cap .t::after { transform: translateX(3px); }
+.tile .cap .row { display: flex; gap: 6px; margin-top: 7px; flex-wrap: wrap; }
+.tile .cap .row span { font-size: 11px; font-weight: 700; background: var(--surface-2); color: var(--ink-soft); padding: 3px 9px; border-radius: var(--pill); white-space: nowrap; }
+
+/* featured: マスコット＝ステッカーボード（白縁ステッカーが映える奶油面） */
+.tile--mascots { background: var(--cream); }
+.tile--mascots::before { content: ""; position: absolute; right: -52px; top: -52px;
+  width: 190px; height: 190px; border-radius: 50%; background: oklch(0.78 0.11 70 / .25); }
+.tile--mascots::after { content: ""; position: absolute; left: -44px; top: 38%;
+  width: 130px; height: 130px; border-radius: 50%; background: oklch(0.64 0.08 195 / .16); }
+.tile--mascots .mascots { position: relative; z-index: 1;
+  flex: 1 1 auto; min-height: 0;
+  display: flex; align-items: flex-end; justify-content: center; gap: 5%;
+  padding: 24px 18px 10px;
+  background: radial-gradient(46% 9% at 50% 97%, oklch(0.80 0.05 70 / .65), transparent 70%); }
+.tile--mascots .mascots img { height: auto; max-height: 100%; max-width: 44%; object-fit: contain; object-position: bottom;
+  filter: drop-shadow(0 8px 10px oklch(0.35 0.05 48 / .14)); }
+.tile--mascots .mascots img:first-child { transform: rotate(-2.5deg); }
+.tile--mascots .mascots img:last-child { transform: rotate(2deg); }
+.tile--mascots .cap { position: relative; z-index: 1; background: var(--surface); border-top: 1px solid var(--line-soft); padding: 14px 18px 17px; }
+.tile--mascots .cap .t { font-size: 19px; justify-content: flex-start; }
+.tile--mascots .cap .lead { color: var(--ink-soft); font-size: 13px; line-height: 1.65; margin-top: 6px; text-wrap: pretty; }
+.tile--mascots .cap .row span { background: var(--coral-tint); color: var(--coral-deep); }
+.tile--mascots .cap .row span + span { background: var(--sea-tint); color: var(--sea-deep); }
+
+/* ============================================================
+   section frame
+   ============================================================ */
+section.sec { padding: 42px 0; }
+.sec__head { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }
+.sec__head .k { font-size: 12.5px; font-weight: 700; letter-spacing: .1em; }
+.sec__head h2 { font-size: clamp(23px, 2.8vw, 31px); font-weight: 900; margin-top: 6px; letter-spacing: .01em; }
+.sec__head .desc { color: var(--ink-soft); font-size: 14.5px; margin-top: 7px; max-width: 620px; text-wrap: pretty; }
+.more { font-weight: 700; font-size: 14px; color: var(--coral-deep); display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+.k-hot { color: var(--coral-deep); } .k-teal { color: var(--sea-deep); }
+.k-gold { color: var(--sun-deep); } .k-grape { color: var(--sea-deep); } .k-ok { color: var(--sea-deep); }
+
+/* ============================================================
+   即時情報（鮮度ツール）
+   ============================================================ */
+.fresh { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-xl); padding: 8px; box-shadow: var(--shadow-sm); }
+.fresh__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.fcard { border-radius: var(--r-lg); padding: 16px 16px 14px; position: relative; overflow: hidden; background: var(--surface-2); }
+.fresh__grid .fcard:nth-child(1) { background: var(--coral-tint); }
+.fresh__grid .fcard:nth-child(2) { background: var(--sea-tint); }
+.fresh__grid .fcard:nth-child(3) { background: var(--sun-tint); }
+.fcard__top { display: flex; align-items: center; gap: 8px; font-size: 13.5px; font-weight: 800; white-space: nowrap; }
+.fcard__top .ic { width: 27px; height: 27px; border-radius: 8px; display: grid; place-items: center; font-size: 14px; background: oklch(1 0 0 / .75); flex: none; }
+.fcard__big { font-size: 22px; font-weight: 900; margin-top: 12px; letter-spacing: 0; font-family: var(--font-mono); }
+.fcard__big small { font-size: 13px; font-weight: 700; color: var(--ink-soft); font-family: var(--tw-font); }
+.fcard__lines { margin-top: 8px; display: flex; flex-direction: column; gap: 5px; }
+.fline { display: flex; align-items: center; gap: 7px; font-size: 12.5px; color: var(--ink-soft); }
+.fline a { text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; font-weight: 700; color: var(--ink-soft); }
+.fline a:hover { color: var(--coral-deep); text-decoration-color: var(--coral); }
+.fline .st { font-size: 10px; font-weight: 700; padding: 1px 7px; border-radius: var(--pill); color: #fff; white-space: nowrap; flex: none; }
+.st-open { background: var(--sea); } .st-warn { background: var(--sun-deep); } .st-close { background: var(--coral-deep); }
+.fcard__upd { margin-top: 11px; font-family: var(--font-mono); font-size: 10px; color: var(--ink-faint); }
+.fcard__upd a { text-decoration: underline; text-underline-offset: 2px; }
+.fresh__foot { display: flex; align-items: center; gap: 10px; padding: 12px 14px 8px; font-size: 12.5px; color: var(--ink-faint); }
+
+/* ============================================================
+   離島深掘
+   ============================================================ */
+.islands { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.icard { background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--r-lg); overflow: hidden; transition: transform .15s, box-shadow .2s; display: flex; flex-direction: column; }
+.icard:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.icard__media { height: 150px; position: relative; flex: none; }
+.icard__body { padding: 13px 15px 16px; display: flex; flex-direction: column; flex: 1; }
+.icard__name { font-weight: 900; font-size: 17px; display: flex; align-items: baseline; gap: 7px; }
+.icard__name small { font-family: var(--font-mono); font-size: 10.5px; color: var(--ink-faint); font-weight: 500; }
+.icard__tag { color: var(--ink-soft); font-size: 13px; margin-top: 5px; text-wrap: pretty; }
+.icard__foot { display: flex; align-items: center; gap: 8px; margin-top: auto; padding-top: 11px; border-top: 1px solid var(--line-soft); font-size: 12px; color: var(--ink-faint); flex-wrap: wrap; }
+.icard__body .icard__foot { margin-top: auto; }
+.icard__tag + .icard__fare + .icard__foot { margin-top: 11px; }
+.pill { font-size: 11.5px; font-weight: 700; padding: 3px 9px; border-radius: var(--pill); background: var(--surface-2); color: var(--ink-soft); border: 1px solid var(--line-soft); white-space: nowrap; }
+.pill-depth { background: var(--coral-tint); color: var(--coral-deep); border-color: transparent; }
+
+/* ============================================================
+   在地新店 feed（非表示中。復帰時用に維持）
+   ============================================================ */
+.feed { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.ncard { display: grid; grid-template-columns: 92px 1fr; gap: 13px; background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--r-lg); padding: 11px; align-items: stretch; }
+.ncard__media { border-radius: var(--r-md); position: relative; min-height: 92px; }
+.ncard__b { display: flex; flex-direction: column; }
+.ncard__date { font-family: var(--font-mono); font-size: 10.5px; color: var(--coral-deep); font-weight: 500; letter-spacing: .03em; }
+.ncard__name { font-weight: 700; font-size: 15px; margin-top: 3px; line-height: 1.4; }
+.ncard__meta { color: var(--ink-soft); font-size: 12.5px; margin-top: auto; padding-top: 8px; display: flex; gap: 8px; flex-wrap: wrap; }
+.ncard__meta .loc { display: inline-flex; align-items: center; gap: 4px; }
+
+/* ============================================================
+   購物・免稅 — ブランド5色のフラット面（写真不要のカテゴリカード）
+   ============================================================ */
+.shop { display: grid; grid-template-columns: 1.4fr 1fr 1fr; grid-template-rows: auto auto; gap: 14px; }
+.scard { position: relative; border-radius: var(--r-lg); overflow: hidden; color: var(--cream); min-height: 150px; display: flex; flex-direction: column; justify-content: flex-end; padding: 17px; transition: transform .15s, box-shadow .2s; }
+.scard:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.scard::before { content: ""; position: absolute; right: -34px; top: -44px; width: 150px; height: 150px; border-radius: 50%; background: oklch(1 0 0 / .12); }
+.scard--don { grid-row: span 2; background: var(--coral); }
+.scard--outlet { background: var(--sea); }
+.scard--costco { background: var(--ink); }
+.scard--drug { background: var(--sea-deep); }
+.scard--awase { background: var(--sun); color: var(--ink); }
+.scard--awase::before { background: oklch(1 0 0 / .26); }
+.scard__k { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
+.scard__t { font-weight: 900; font-size: 19px; margin-top: 4px; line-height: 1.3; }
+.scard--don .scard__t { font-size: 25px; }
+.scard__d { font-size: 12.5px; opacity: .92; margin-top: 7px; max-width: 92%; line-height: 1.65; text-wrap: pretty; }
+.scard__tags { display: flex; gap: 6px; margin-top: 11px; flex-wrap: wrap; }
+.scard__tags span { font-size: 11px; font-weight: 700; background: oklch(1 0 0 / .18); padding: 3px 9px; border-radius: var(--pill); white-space: nowrap; }
+.scard--awase .scard__tags span { background: oklch(1 0 0 / .42); }
+
+/* ============================================================
+   社團 / SNS（非表示中。復帰時用に維持）
+   ============================================================ */
+.social { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+.socard { background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--r-lg); padding: 16px 15px; display: flex; flex-direction: column; gap: 4px; transition: transform .15s, box-shadow .2s; }
+.socard:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.socard__ic { width: 40px; height: 40px; border-radius: 11px; display: grid; place-items: center; color: #fff; font-weight: 900; font-size: 15px; margin-bottom: 6px; }
+.socard__name { font-weight: 700; font-size: 15px; }
+.socard__num { font-family: var(--font-mono); font-size: 12px; color: var(--ink-faint); }
+.socard__d { font-size: 12px; color: var(--ink-soft); margin-top: 4px; }
+.ic-fb { background: #1877F2; } .ic-ig { background: linear-gradient(135deg, #F58529, #DD2A7B, #8134AF); }
+.ic-th { background: #000; } .ic-dc { background: #006aa6; } .ic-line { background: #06C755; }
+
+/* ============================================================
+   交陪（#kaupue）＝信頼層。マスコットは使わず、静かで丁寧な面
+   ============================================================ */
+.kp { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.kpcard { background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--r-lg); padding: 21px 20px 23px; }
+.kpcard__ic { width: 44px; height: 44px; border-radius: 13px; display: grid; place-items: center; font-size: 22px; background: var(--sun-tint); margin-bottom: 12px; }
+.kpcard:nth-child(2) .kpcard__ic { background: var(--sea-tint); }
+.kpcard:nth-child(3) .kpcard__ic { background: var(--coral-tint); }
+.kpcard h3 { font-size: 17px; font-weight: 900; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.kpcard p { color: var(--ink-soft); font-size: 13.5px; margin-top: 8px; line-height: 1.75; text-wrap: pretty; }
+.pill-soon { font-size: 10.5px; font-weight: 700; letter-spacing: .04em; white-space: nowrap;
+  background: var(--surface-2); color: var(--ink-faint); border: 1px solid var(--line);
+  padding: 2px 9px; border-radius: var(--pill); }
+
+/* ============================================================
+   租車 / 票券 band
+   ============================================================ */
+.band { background: var(--coral); border-radius: var(--r-xl); padding: 30px 34px; color: #fff; display: flex; align-items: center; gap: 28px; flex-wrap: wrap; position: relative; overflow: hidden; }
+.band::after { content: ""; position: absolute; right: -50px; top: -60px; width: 230px; height: 230px; border-radius: 50%; background: oklch(1 0 0 / .13); }
+.band::before { content: ""; position: absolute; right: 110px; bottom: -70px; width: 150px; height: 150px; border-radius: 50%; background: oklch(0.78 0.13 70 / .35); }
+.band__b { position: relative; z-index: 1; }
+.band__k { font-family: var(--font-mono); font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; opacity: .88; }
+.band__t { font-size: 26px; font-weight: 900; margin-top: 5px; }
+.band__d { font-size: 14px; opacity: .94; margin-top: 8px; max-width: 480px; line-height: 1.7; text-wrap: pretty; }
+.band__cta { position: relative; z-index: 1; margin-left: auto; display: flex; gap: 10px; flex-wrap: wrap; }
+.band__cta a { background: var(--cream); color: var(--coral-deep); font-weight: 900; font-size: 15px; padding: 13px 22px; border-radius: var(--pill); display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; }
+.band__cta a:hover { background: #fff; }
+.band__cta a.ghost { background: oklch(1 0 0 / .15); color: #fff; border: 1px solid oklch(1 0 0 / .45); }
+.band__cta a.ghost:hover { background: oklch(1 0 0 / .25); }
+
+/* ============================================================
+   footer ＋ 示意圖ノート（フッターに統合した帯。浮かせない）
+   ============================================================ */
+.foot { background: var(--ink); color: oklch(0.86 0.018 78); margin-top: 42px; padding: 42px 0 28px; }
+.foot__grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 28px; }
+.foot h4 { font-size: 13px; color: var(--cream); margin-bottom: 12px; letter-spacing: .06em; }
+.foot a { display: block; font-size: 13.5px; color: oklch(0.80 0.018 76); padding: 4px 0; }
+.foot a:hover { color: var(--cream); }
+.foot__brand { font-weight: 900; font-size: 20px; color: var(--cream); }
+.foot__brand small { display: block; font-family: var(--font-mono); font-size: 9px; letter-spacing: .2em; color: oklch(0.68 0.018 76); margin-top: 3px; }
+.foot__note { font-size: 12.5px; color: oklch(0.74 0.018 76); margin-top: 12px; max-width: 340px; line-height: 1.7; }
+.foot__bottom { border-top: 1px solid oklch(0.40 0.024 52); margin-top: 26px; padding-top: 16px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-family: var(--font-mono); font-size: 11.5px; color: oklch(0.64 0.018 76); }
+.foot__bottom span { white-space: nowrap; }
+
+/* 「照片為示意圖」＝固定リボンをやめ、フッター直下のサブバーに統合 */
+.sample-tag { background: oklch(0.245 0.026 50); color: oklch(0.72 0.018 76);
+  border-top: 1px solid oklch(0.34 0.024 52);
+  text-align: center; font-family: var(--font-mono); font-size: 11px;
+  padding: 10px 16px; letter-spacing: .04em; }
+.sample-tag b { color: var(--sun); font-weight: 500; }
+
+/* ============================================================
+   responsive
+   ============================================================ */
+@media (max-width: 1140px) { .search { display: none; } }
+@media (max-width: 1000px) {
+  .bento { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+  .bento__feat { grid-column: span 2; grid-row: auto; min-height: 300px; }
+  .tile--mascots .mascots img { max-height: 225px; }
+  a.tile { min-height: 180px; }
+  .fresh__grid, .islands { grid-template-columns: repeat(2, 1fr); }
+  .feed, .social { grid-template-columns: repeat(2, 1fr); }
+  .shop { grid-template-columns: 1fr 1fr; }
+  .scard--don { grid-row: auto; }
+  .kp { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .nav, .search { display: none; }
+  .head__bar { gap: 10px; }
+  .bento, .fresh__grid, .islands, .feed, .social, .shop { grid-template-columns: 1fr; }
+  .bento__feat { grid-column: auto; }
+  .bento { grid-auto-rows: minmax(170px, auto); }
+  .tile--mascots .mascots { padding-top: 16px; }
+  .foot__grid { grid-template-columns: 1fr 1fr; }
+  .band { padding: 26px 22px; }
+  .band__cta { margin-left: 0; }
 }
 
-/* ---- Cards ---- */
-.card {
-  background: var(--surface);
-  border: 1px solid var(--line-soft);
-  border-radius: var(--r-lg);
-  overflow: hidden;
-  transition: transform .2s ease, box-shadow .25s ease, border-color .2s ease;
-}
-
-/* ---- Badges / tags ---- */
-.tag {
-  display: inline-flex; align-items: center; gap: 6px;
-  font-size: 13px; font-weight: 600; white-space: nowrap;
-  padding: 5px 11px; border-radius: var(--pill);
-  background: var(--surface-2); color: var(--ink-soft);
-  border: 1px solid var(--line-soft);
-}
-.tag svg { width: 14px; height: 14px; }
-.tag-coral { background: var(--coral-tint); color: var(--coral-deep); border-color: transparent; }
-.tag-sea { background: var(--sea-tint); color: oklch(0.42 0.07 218); border-color: transparent; }
-
-/* ---- utility ---- */
-/* Base state is VISIBLE. Entrance animates TRANSFORM ONLY (never opacity), so
-   even if the animation is paused/throttled at frame 0, content stays opaque. */
-.fade-in { opacity: 1; transform: none; }
-body.anim-on .fade-in { animation: fadeUp .5s ease both; }
-@keyframes fadeUp { from { transform: translateY(16px); } to { transform: none; } }
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
-}
-
-
-  /* ============================================================
-     台湾版 — 独サイト(静的ミニマル)から意図的に分岐
-     高密度 / 打卡(IG映え) / 社会的証明 / 即時情報(鮮度) /
-     離島深掘り / 買い物動線 / SNS発見 (FB社團・Dcard・LINE)
-     ブランドの coral / sea は継承、フォントは Noto Sans TC
-     ============================================================ */
-  :root {
-    --tw-font: "Noto Sans TC", system-ui, sans-serif;
-    --hot:   oklch(0.60 0.16 18);
-    --hot-t: oklch(0.95 0.04 22);
-    --teal:  oklch(0.639 0.097 195); /* 海 #2E9E9E（brand-tw パレット） */
-    --teal-t:oklch(0.94 0.035 205);
-    --grape: oklch(0.55 0.13 305);
-    --gold:  oklch(0.74 0.12 78);
-    --ok:    oklch(0.58 0.12 150);
-    --warn:  oklch(0.70 0.15 55);
-  }
-  * { box-sizing: border-box; }
-  body { background: var(--bg-2); font-family: var(--tw-font); color: var(--ink); margin: 0; line-height: 1.6; -webkit-font-smoothing: antialiased; }
-  img { display: block; max-width: 100%; }
-  .wrap { width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 24px; }
-  h1, h2, h3, h4 { font-family: var(--tw-font); margin: 0; letter-spacing: -0.01em; line-height: 1.25; }
-  a { color: inherit; text-decoration: none; }
-  button { font: inherit; cursor: pointer; border: none; background: none; color: inherit; }
-
-  /* ---------- shot placeholder (照片) ---------- */
-  .shot { position: relative; overflow: hidden; border-radius: var(--r-md);
-    background:
-      linear-gradient(150deg, oklch(0.74 0.11 var(--h,210)) 0%, oklch(0.55 0.13 calc(var(--h,210) + 18)) 100%);
-  }
-  .shot::after { content: attr(data-shot); position: absolute; left: 9px; bottom: 8px;
-    font-family: var(--font-mono); font-size: 10px; letter-spacing: .08em; color: oklch(1 0 0 / .9);
-    text-shadow: 0 1px 3px oklch(0.2 0.05 250 / .55); }
-  .shot::before { content: ""; position: absolute; inset: 0;
-    background: radial-gradient(120% 90% at 75% 12%, oklch(1 0 0 / .22), transparent 55%),
-                linear-gradient(0deg, oklch(0.18 0.04 250 / .42), transparent 46%); }
-  .meta-likes { position: absolute; right: 9px; bottom: 8px; z-index: 2; white-space: nowrap;
-    font-family: var(--font-mono); font-size: 10.5px; color: #fff; display: inline-flex; gap: 9px;
-    text-shadow: 0 1px 3px oklch(0.2 0.05 250 / .6); }
-  .badge-hot { position: absolute; left: 9px; top: 9px; z-index: 2; white-space: nowrap;
-    font-size: 11px; font-weight: 700; background: var(--hot); color: #fff; padding: 3px 9px; border-radius: var(--pill); }
-  .badge-new { position: absolute; left: 9px; top: 9px; z-index: 2; white-space: nowrap;
-    font-size: 11px; font-weight: 700; background: var(--ok); color: #fff; padding: 3px 9px; border-radius: var(--pill); }
-  .badge-soft { background: oklch(1 0 0 / .9); color: var(--ink); }
-
-  /* ---------- header ---------- */
-  .head { position: sticky; top: 0; z-index: 60; background: oklch(0.99 0.006 78 / 0.92); backdrop-filter: blur(14px) saturate(1.3); border-bottom: 1px solid var(--line-soft); }
-  .head__bar { display: flex; align-items: center; gap: 18px; height: 64px; }
-  .brand { display: inline-flex; align-items: center; gap: 10px; }
-  .brand__mark { width: 38px; height: 38px; border-radius: 11px; background: linear-gradient(145deg, var(--coral), var(--hot)); color: #fff; display: grid; place-items: center; font-weight: 900; font-size: 19px; box-shadow: var(--shadow-sm); }
-  .brand__tx { font-weight: 900; font-size: 19px; letter-spacing: 0; }
-  .brand__tx small { display: block; font-family: var(--font-mono); font-size: 9px; letter-spacing: .22em; color: var(--ink-faint); font-weight: 500; margin-top: -1px; }
-  .nav { display: flex; align-items: center; gap: 2px; margin-left: 8px; }
-  .nav a { padding: 9px 13px; border-radius: var(--pill); font-weight: 700; font-size: 15px; color: var(--ink-soft); display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
-  .nav a:hover { background: var(--surface-2); color: var(--ink); }
-  .nav a .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--hot); }
-  .head__right { margin-left: auto; display: flex; align-items: center; gap: 9px; }
-  .search { display: inline-flex; align-items: center; gap: 8px; background: var(--surface-2); border: 1px solid var(--line-soft); border-radius: var(--pill); padding: 8px 14px; color: var(--ink-faint); font-size: 13.5px; }
-  .search svg { width: 15px; height: 15px; }
-  .btn-line { background: #06C755; color: #fff; font-weight: 700; font-size: 14px; padding: 9px 15px; border-radius: var(--pill); display: inline-flex; align-items: center; gap: 7px; }
-  .btn-line svg { width: 16px; height: 16px; }
-  .lang-tog { display: inline-flex; background: var(--surface-2); border: 1px solid var(--line-soft); border-radius: var(--pill); padding: 3px; gap: 2px; flex: none; }
-  .lang-tog button { font-size: 12.5px; font-weight: 700; color: var(--ink-faint); padding: 6px 11px; border-radius: var(--pill); white-space: nowrap; }
-  .lang-tog button.on { background: var(--ink); color: #fff; }
-  body.lang-ja { --tw-font: "Zen Kaku Gothic New", "Noto Sans JP", system-ui, sans-serif; }
-
-  /* ---------- live ticker ---------- */
-  .ticker { background: oklch(0.30 0.035 48); color: oklch(0.97 0.012 74); overflow: hidden; }
-  .ticker__in { display: flex; align-items: center; gap: 14px; height: 38px; }
-  .ticker__tag { flex: none; font-size: 12px; font-weight: 700; background: var(--hot); color: #fff; padding: 4px 11px; border-radius: var(--pill); display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
-  .ticker__tag .pulse { width: 7px; height: 7px; border-radius: 50%; background: #fff; animation: pulse 1.4s infinite; }
-  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
-  .ticker__track { display: flex; gap: 34px; white-space: nowrap; animation: marq 30s linear infinite; font-size: 13px; font-family: var(--font-mono); }
-  .ticker__track span b { color: var(--gold); }
-  @keyframes marq { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-  @media (prefers-reduced-motion: reduce) { .ticker__track { animation: none; } }
-
-  /* ---------- HERO (bento) ---------- */
-  .hero { padding: 26px 0 8px; }
-  .hero__top { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; margin-bottom: 16px; flex-wrap: wrap; }
-  .hero__k { font-family: var(--font-mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--hot); font-weight: 500; }
-  .hero__h { font-size: clamp(30px, 4.4vw, 50px); font-weight: 900; letter-spacing: -.02em; margin-top: 6px; }
-  .hero__h em { font-style: normal; color: var(--coral-deep); }
-  .hero__sub { color: var(--ink-soft); font-size: 16px; margin-top: 8px; max-width: 560px; }
-  .hero__sub b { color: var(--ink); }
-  .repeat-pick { display: inline-flex; background: var(--surface); border: 1px solid var(--line); border-radius: var(--pill); padding: 5px; gap: 3px; box-shadow: var(--shadow-sm); }
-  .repeat-pick button { font-size: 13.5px; font-weight: 700; color: var(--ink-soft); padding: 8px 14px; border-radius: var(--pill); white-space: nowrap; }
-  .repeat-pick button.on { background: var(--coral); color: #fff; }
-
-  .bento { display: grid; grid-template-columns: 1.7fr 1fr 1fr; grid-template-rows: 200px 200px; gap: 14px; }
-  .bento__feat { grid-row: span 2; }
-  .tile { position: relative; border-radius: var(--r-lg); overflow: hidden; }
-  .tile .cap { position: absolute; left: 0; right: 0; bottom: 0; z-index: 3; padding: 16px; color: #fff; }
-  .tile .cap .t { font-weight: 900; font-size: 17px; line-height: 1.3; text-shadow: 0 1px 6px oklch(0.2 0.05 250 / .5); }
-  .tile .cap .row { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
-  .tile .cap .row span { font-size: 11px; font-weight: 700; background: oklch(1 0 0 / .2); backdrop-filter: blur(4px); padding: 3px 9px; border-radius: var(--pill); }
-  .bento__feat .cap .t { font-size: 26px; }
-  .bento__feat .cap .lead { font-size: 13px; color: oklch(1 0 0 / .88); margin-top: 6px; max-width: 80%; text-shadow: 0 1px 4px oklch(0.2 0.05 250 / .5); }
-
-  /* ---------- section frame ---------- */
-  section.sec { padding: 40px 0; }
-  .sec__head { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }
-  .sec__head .k { font-family: var(--font-mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; font-weight: 500; display: inline-flex; align-items: center; gap: 8px; }
-  .sec__head h2 { font-size: clamp(22px, 2.8vw, 30px); font-weight: 900; margin-top: 7px; }
-  .sec__head .desc { color: var(--ink-soft); font-size: 14.5px; margin-top: 6px; max-width: 600px; }
-  .more { font-weight: 700; font-size: 14px; color: var(--coral-deep); display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
-  .k-hot { color: var(--hot); } .k-teal { color: var(--teal); } .k-gold { color: oklch(0.62 0.12 70); } .k-grape { color: var(--grape); } .k-ok { color: var(--ok); }
-
-  /* ---------- 即時情報 (鮮度ツール) ---------- */
-  .fresh { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-xl); padding: 8px; }
-  .fresh__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
-  .fcard { border-radius: var(--r-lg); padding: 16px 16px 14px; position: relative; overflow: hidden; }
-  .fcard--storm { background: var(--hot-t); } .fcard--hours { background: var(--teal-t); }
-  .fcard--ferry { background: oklch(0.94 0.035 150); } .fcard--season { background: oklch(0.95 0.035 78); }
-  .fcard__top { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 700; white-space: nowrap; }
-  .fcard__top .ic { width: 26px; height: 26px; border-radius: 8px; display: grid; place-items: center; color: #fff; }
-  .fcard--storm .ic { background: var(--hot); } .fcard--hours .ic { background: var(--teal); }
-  .fcard--ferry .ic { background: var(--ok); } .fcard--season .ic { background: var(--gold); }
-  .fcard__top .ic svg { width: 15px; height: 15px; }
-  .fcard__big { font-size: 22px; font-weight: 900; margin-top: 12px; letter-spacing: -.01em; }
-  .fcard__big small { font-size: 13px; font-weight: 700; color: var(--ink-soft); }
-  .fcard__lines { margin-top: 8px; display: flex; flex-direction: column; gap: 5px; }
-  .fline { display: flex; align-items: center; gap: 7px; font-size: 12.5px; color: var(--ink-soft); }
-  .fline .st { font-size: 10px; font-weight: 700; padding: 1px 7px; border-radius: var(--pill); color: #fff; white-space: nowrap; flex: none; }
-  .st-open { background: var(--ok); } .st-warn { background: var(--warn); } .st-close { background: var(--hot); }
-  .fcard__upd { margin-top: 11px; font-family: var(--font-mono); font-size: 10px; color: var(--ink-faint); }
-  .fresh__foot { display: flex; align-items: center; gap: 10px; padding: 12px 14px 8px; font-size: 12.5px; color: var(--ink-faint); }
-  .fresh__foot b { color: var(--coral-deep); }
-
-  /* ---------- 離島深度 ---------- */
-  .islands { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
-  .icard { background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--r-lg); overflow: hidden; transition: transform .15s, box-shadow .2s; }
-  .icard:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
-  .icard__media { height: 150px; position: relative; }
-  .icard__body { padding: 13px 15px 16px; }
-  .icard__name { font-weight: 900; font-size: 17px; display: flex; align-items: baseline; gap: 7px; }
-  .icard__name small { font-family: var(--font-mono); font-size: 10.5px; color: var(--ink-faint); font-weight: 500; }
-  .icard__tag { color: var(--ink-soft); font-size: 13px; margin-top: 5px; }
-  .icard__foot { display: flex; align-items: center; gap: 8px; margin-top: 11px; padding-top: 11px; border-top: 1px solid var(--line-soft); font-size: 12px; color: var(--ink-faint); flex-wrap: wrap; }
-  .pill { font-size: 11.5px; font-weight: 700; padding: 3px 9px; border-radius: var(--pill); background: var(--surface-2); color: var(--ink-soft); border: 1px solid var(--line-soft); white-space: nowrap; }
-  .pill-depth { background: var(--coral-tint); color: var(--coral-deep); border-color: transparent; }
-
-  /* ---------- 在地新店 feed ---------- */
-  .feed { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-  .ncard { display: grid; grid-template-columns: 92px 1fr; gap: 13px; background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--r-lg); padding: 11px; align-items: stretch; }
-  .ncard__media { border-radius: var(--r-md); position: relative; min-height: 92px; }
-  .ncard__b { display: flex; flex-direction: column; }
-  .ncard__date { font-family: var(--font-mono); font-size: 10.5px; color: var(--hot); font-weight: 500; letter-spacing: .03em; }
-  .ncard__name { font-weight: 700; font-size: 15px; margin-top: 3px; line-height: 1.35; }
-  .ncard__meta { color: var(--ink-soft); font-size: 12.5px; margin-top: auto; padding-top: 8px; display: flex; gap: 8px; flex-wrap: wrap; }
-  .ncard__meta .loc { display: inline-flex; align-items: center; gap: 4px; }
-
-  /* ---------- 購物攻略 ---------- */
-  .shop { display: grid; grid-template-columns: 1.4fr 1fr 1fr; grid-template-rows: auto auto; gap: 14px; }
-  .scard { position: relative; border-radius: var(--r-lg); overflow: hidden; color: #fff; min-height: 150px; display: flex; flex-direction: column; justify-content: flex-end; padding: 16px; }
-  .scard--don { grid-row: span 2; background: linear-gradient(150deg, oklch(0.55 0.16 18), oklch(0.42 0.16 12)); }
-  .scard--outlet { background: linear-gradient(150deg, oklch(0.58 0.12 300), oklch(0.46 0.13 312)); }
-  .scard--costco { background: linear-gradient(150deg, oklch(0.5 0.13 250), oklch(0.4 0.12 258)); }
-  .scard--drug { background: linear-gradient(150deg, oklch(0.62 0.12 165), oklch(0.5 0.12 175)); }
-  .scard--awase { background: linear-gradient(150deg, oklch(0.64 0.12 60), oklch(0.54 0.13 48)); }
-  .scard__k { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
-  .scard__t { font-weight: 900; font-size: 19px; margin-top: 4px; }
-  .scard--don .scard__t { font-size: 25px; }
-  .scard__d { font-size: 12.5px; opacity: .9; margin-top: 6px; max-width: 90%; }
-  .scard__tags { display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
-  .scard__tags span { font-size: 11px; font-weight: 700; background: oklch(1 0 0 / .18); padding: 3px 9px; border-radius: var(--pill); white-space: nowrap; }
-
-  /* ---------- 社團 / SNS 発見 ---------- */
-  .social { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
-  .socard { background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--r-lg); padding: 16px 15px; display: flex; flex-direction: column; gap: 4px; transition: transform .15s, box-shadow .2s; }
-  .socard:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
-  .socard__ic { width: 40px; height: 40px; border-radius: 11px; display: grid; place-items: center; color: #fff; font-weight: 900; font-size: 15px; margin-bottom: 6px; }
-  .socard__name { font-weight: 700; font-size: 15px; }
-  .socard__num { font-family: var(--font-mono); font-size: 12px; color: var(--ink-faint); }
-  .socard__d { font-size: 12px; color: var(--ink-soft); margin-top: 4px; }
-  .ic-fb { background: #1877F2; } .ic-ig { background: linear-gradient(135deg,#F58529,#DD2A7B,#8134AF); } .ic-th { background: #000; } .ic-dc { background: oklch(0.5 0.14 250); } .ic-line { background: #06C755; }
-
-  /* ---------- 租車 / affiliate band ---------- */
-  .band { background: linear-gradient(135deg, var(--coral), var(--hot)); border-radius: var(--r-xl); padding: 30px 34px; color: #fff; display: flex; align-items: center; gap: 28px; flex-wrap: wrap; position: relative; overflow: hidden; }
-  .band::after { content: ""; position: absolute; right: -40px; top: -40px; width: 220px; height: 220px; border-radius: 50%; background: oklch(1 0 0 / .12); }
-  .band__b { position: relative; z-index: 1; }
-  .band__k { font-family: var(--font-mono); font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
-  .band__t { font-size: 26px; font-weight: 900; margin-top: 5px; }
-  .band__d { font-size: 14px; opacity: .92; margin-top: 7px; max-width: 460px; }
-  .band__cta { position: relative; z-index: 1; margin-left: auto; display: flex; gap: 10px; flex-wrap: wrap; }
-  .band__cta a { background: #fff; color: var(--hot); font-weight: 900; font-size: 15px; padding: 13px 22px; border-radius: var(--pill); display: inline-flex; align-items: center; gap: 8px; }
-  .band__cta a.ghost { background: oklch(1 0 0 / .16); color: #fff; border: 1px solid oklch(1 0 0 / .4); }
-
-  /* ---------- footer ---------- */
-  .foot { background: oklch(0.30 0.035 48); color: oklch(0.86 0.012 74); margin-top: 40px; padding: 40px 0 28px; }
-  .foot__grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 28px; }
-  .foot h4 { font-size: 13px; color: #fff; margin-bottom: 12px; }
-  .foot a { display: block; font-size: 13.5px; color: oklch(0.82 0.012 74); padding: 4px 0; }
-  .foot a:hover { color: #fff; }
-  .foot__brand { font-weight: 900; font-size: 20px; color: #fff; }
-  .foot__brand small { display: block; font-family: var(--font-mono); font-size: 9px; letter-spacing: .2em; color: oklch(0.7 0.012 74); margin-top: 3px; }
-  .foot__note { font-size: 12.5px; color: oklch(0.72 0.012 74); margin-top: 12px; max-width: 320px; line-height: 1.6; }
-  .foot__bottom { border-top: 1px solid oklch(0.42 0.02 60); margin-top: 26px; padding-top: 16px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-family: var(--font-mono); font-size: 11.5px; color: oklch(0.66 0.012 74); }
-
-  /* sample disclaimer ribbon */
-  .sample-tag { position: fixed; right: 14px; bottom: 14px; z-index: 80; background: oklch(0.30 0.035 48 / .92); color: #fff; font-family: var(--font-mono); font-size: 11px; padding: 8px 13px; border-radius: var(--pill); box-shadow: var(--shadow-md); backdrop-filter: blur(6px); }
-  .sample-tag b { color: var(--gold); }
-
-  @media (max-width: 1140px) { .search { display: none; } }
-  @media (max-width: 1000px) {
-    .bento { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
-    .bento__feat { grid-column: span 2; grid-row: auto; height: 280px; }
-    .fresh__grid, .islands { grid-template-columns: repeat(2, 1fr); }
-    .feed, .social { grid-template-columns: repeat(2, 1fr); }
-    .shop { grid-template-columns: 1fr 1fr; }
-    .scard--don { grid-row: auto; }
-  }
-  @media (max-width: 640px) {
-    .nav, .search { display: none; }
-    .bento, .fresh__grid, .islands, .feed, .social, .shop { grid-template-columns: 1fr; }
-    .bento__feat { grid-column: auto; }
-    .foot__grid { grid-template-columns: 1fr 1fr; }
-  }
-
-/* ===== 実態に合わせた非表示（2026-06-08） =====
+/* ===== 実態に合わせた非表示(2026-06-08) =====
    SNS未開設・手動更新が必要な鮮度情報を隠す。
    データ/SNSが揃ったら、この最終ブロックと各要素の hidden 属性を外せば
    元のサンプル設計にそのまま復帰する（マークアップは保持）。 */
@@ -1746,53 +392,5 @@ body.anim-on .fade-in { animation: fadeUp .5s ease both; }
 }
 
 /* 離島カードの運賃・所要（実データ・data-jpyでTWD自動併記） */
-.icard__fare { font: 500 .78rem/1.45 var(--font-mono); color: var(--ink-soft); margin: .45rem 0 .15rem; letter-spacing: .01em; }
+.icard__fare { font: 500 .78rem/1.5 var(--font-mono); color: var(--ink-soft); margin: .5rem 0 .15rem; letter-spacing: .01em; }
 .icard__fare span[data-jpy] { color: var(--coral-deep); font-weight: 600; }
-
-/* ===== 交陪リブランド（2026-06-10） ===== */
-
-/* ヘッダー: 連環マーク（枠なし logo-rings＝帯/ヘッダー内ルール） */
-.brand__logo { width: 42px; height: 42px; flex: none; }
-
-/* ヒーロー featured: マスコット・キービジュアル（石虎 × シーサー＝交陪） */
-.tile--mascots {
-  background: linear-gradient(160deg, oklch(0.95 0.04 38), oklch(0.93 0.035 195));
-  display: flex; flex-direction: column; justify-content: flex-end;
-  border: 1px solid var(--line-soft);
-}
-.tile--mascots .mascots {
-  flex: 1 1 auto; min-height: 0;
-  display: flex; align-items: flex-end; justify-content: center; gap: 4%;
-  padding: 22px 18px 0;
-}
-.tile--mascots .mascots img { height: auto; max-height: 100%; max-width: 46%; object-fit: contain; object-position: bottom; }
-.tile--mascots .cap { position: static; color: var(--ink); padding: 14px 18px 18px; }
-.tile--mascots .cap .t { color: var(--ink); text-shadow: none; }
-.tile--mascots .cap .lead { color: var(--ink-soft); text-shadow: none; max-width: 100%; }
-.tile--mascots .cap .row span { background: oklch(1 0 0 / .65); color: var(--ink-soft); backdrop-filter: none; }
-
-/* bento の小タイル＝実在セクションへのリンク */
-a.tile { display: block; transition: transform .15s, box-shadow .2s; }
-a.tile:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
-/* 行が auto になる幅では cap(absolute) だけだと高さが潰れるため */
-@media (max-width: 1000px) { a.tile { min-height: 150px; } }
-
-/* 交陪セクション（#kaupue） */
-.kp { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-.kpcard {
-  background: var(--surface); border: 1px solid var(--line-soft);
-  border-radius: var(--r-lg); padding: 20px 20px 22px;
-}
-.kpcard__ic {
-  width: 44px; height: 44px; border-radius: 13px; display: grid; place-items: center;
-  font-size: 22px; background: linear-gradient(145deg, var(--coral-tint), var(--sea-tint));
-  margin-bottom: 12px;
-}
-.kpcard h3 { font-size: 17px; font-weight: 900; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-.kpcard p { color: var(--ink-soft); font-size: 13.5px; margin-top: 8px; line-height: 1.7; }
-.pill-soon {
-  font-size: 10.5px; font-weight: 700; letter-spacing: .04em; white-space: nowrap;
-  background: var(--surface-2); color: var(--ink-faint); border: 1px solid var(--line);
-  padding: 2px 9px; border-radius: var(--pill);
-}
-@media (max-width: 1000px) { .kp { grid-template-columns: 1fr; } }
