@@ -424,3 +424,25 @@ section.sec { padding: 42px 0; }
 .iphoto figcaption { font-size: 12px; color: var(--ink-faint); padding: 8px 4px 0; }
 
 @media (max-width: 640px) { .ihero__media { border-radius: var(--r-lg); } }
+
+/* ── 法務・説明ページ（關於／隱私／免責・合作揭露／聯絡） ── */
+.lback { font-size: 14px; font-weight: 700; color: var(--ink-soft); display: inline-flex; gap: 6px; align-items: center; white-space: nowrap; }
+.lback:hover { color: var(--ink); }
+.legal { max-width: 760px; margin: 0 auto; padding: 40px 24px 8px; }
+.legal__k { display: inline-flex; align-items: center; gap: 9px; font-size: 13px; font-weight: 700; color: var(--coral-deep); letter-spacing: .06em; }
+.legal__k::before { content: ""; width: 22px; height: 3px; border-radius: 2px; background: var(--coral); }
+.legal h1 { font-size: clamp(26px, 4vw, 34px); margin: 12px 0 6px; }
+.legal__lead { color: var(--ink-soft); font-size: 15px; line-height: 1.8; margin-bottom: 8px; text-wrap: pretty; }
+.legal__upd { font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-faint); margin-bottom: 26px; }
+.legal h2 { font-size: 19px; margin: 30px 0 10px; padding-top: 20px; border-top: 1px solid var(--line-soft); }
+.legal h2:first-of-type { border-top: none; padding-top: 0; }
+.legal h3 { font-size: 15.5px; margin: 18px 0 4px; color: var(--ink); }
+.legal p { color: var(--ink-soft); font-size: 14.5px; line-height: 1.85; margin: 10px 0; text-wrap: pretty; }
+.legal ul { margin: 10px 0; padding-left: 20px; }
+.legal li { color: var(--ink-soft); font-size: 14.5px; line-height: 1.8; margin: 6px 0; }
+.legal a { color: var(--sea-deep); text-decoration: underline; text-underline-offset: 2px; }
+.legal strong { color: var(--ink); font-weight: 700; }
+.legal__note { background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--r-lg); padding: 16px 18px; margin: 20px 0; font-size: 13.5px; color: var(--ink-soft); line-height: 1.8; }
+.legal__note strong { color: var(--coral-deep); }
+.legal__contact { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; color: var(--coral-deep); font-size: 17px; font-family: var(--font-mono); }
+.legal__sig { margin-top: 30px; padding-top: 18px; border-top: 1px solid var(--line-soft); font-size: 13.5px; color: var(--ink-faint); }
