@@ -83,7 +83,9 @@ const urlOf = (f) => {
   const name = f.split('/').pop();
   return name === 'index.html' ? `${ORIGIN}/` : `${ORIGIN}/${name}`;
 };
+const isNoindex = (f) => /<meta\s+name=["']robots["']\s+content=["'][^"']*noindex/i.test(readFileSync(f, 'utf8'));
 const urls = FILES
+  .filter(f => !isNoindex(f))   // noindex（リダイレクト等）は sitemap から除外
   .map(f => ({ loc: urlOf(f), pri: f.endsWith('index.html') ? '1.0' : '0.8' }))
   .sort((a, b) => a.loc.localeCompare(b.loc));
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

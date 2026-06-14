@@ -446,3 +446,16 @@ section.sec { padding: 42px 0; }
 .legal__note strong { color: var(--coral-deep); }
 .legal__contact { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; color: var(--coral-deep); font-size: 17px; font-family: var(--font-mono); }
 .legal__sig { margin-top: 30px; padding-top: 18px; border-top: 1px solid var(--line-soft); font-size: 13.5px; color: var(--ink-faint); }
+
+/* ── 「我們的選擇」合作カード（租車／住宿／體驗の予約導線） ── */
+.picks { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-top: 4px; }
+.pick { border: 1px solid var(--line); border-radius: var(--r-lg); padding: 16px 16px 15px; background: var(--surface); display: flex; flex-direction: column; gap: 8px; }
+.pick__k { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .1em; color: var(--ink-faint); text-transform: uppercase; }
+.pick__t { font-weight: 800; font-size: 16px; color: var(--ink); line-height: 1.35; }
+.pick__why { font-size: 13px; color: var(--ink-soft); line-height: 1.7; flex: 1; text-wrap: pretty; }
+.pick__cta { align-self: flex-start; font-weight: 700; font-size: 13.5px; color: #fff; background: var(--coral); padding: 9px 15px; border-radius: var(--pill); margin-top: 2px; }
+.pick__cta:hover { background: var(--coral-deep); }
+.pick__cta.ghost { background: transparent; color: var(--coral-deep); border: 1px solid var(--coral); }
+.pick__cta.ghost:hover { background: var(--coral-tint); }
+.aff-note { font-size: 11.5px; color: var(--ink-faint); margin-top: 11px; line-height: 1.6; }
+.aff-note a { color: var(--sea-deep); text-decoration: underline; text-underline-offset: 2px; }
