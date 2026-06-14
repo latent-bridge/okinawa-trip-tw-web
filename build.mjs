@@ -75,4 +75,29 @@ for (const file of FILES) {
 
   writeFileSync(file, html);
 }
-console.log('built:', { files: FILES.length, stamp, jpyPerTwd, honto, miyako, yaeyama });
+
+// ── sitemap.xml / robots.txt 自動生成（ルートの *.html に追従） ──
+const ORIGIN = 'https://okinawa-kaupue.com';
+const lastmod = jst.toISOString().slice(0, 10); // JST基準の YYYY-MM-DD
+const urlOf = (f) => {
+  const name = f.split('/').pop();
+  return name === 'index.html' ? `${ORIGIN}/` : `${ORIGIN}/${name}`;
+};
+const urls = FILES
+  .map(f => ({ loc: urlOf(f), pri: f.endsWith('index.html') ? '1.0' : '0.8' }))
+  .sort((a, b) => a.loc.localeCompare(b.loc));
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.map(u => `  <url>
+    <loc>${u.loc}</loc>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>${u.pri}</priority>
+  </url>`).join('\n')}
+</urlset>
+`;
+writeFileSync(join(ROOT, 'sitemap.xml'), sitemap);
+writeFileSync(join(ROOT, 'robots.txt'),
+  `User-agent: *\nAllow: /\n\nSitemap: ${ORIGIN}/sitemap.xml\n`);
+
+console.log('built:', { files: FILES.length, stamp, jpyPerTwd, honto, miyako, yaeyama, sitemap: urls.length });

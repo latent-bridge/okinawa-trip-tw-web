@@ -34,9 +34,9 @@ jobs:
       - name: Assemble site
         run: |
           mkdir -p _site
-          cp *.html styles.css _site/
+          cp *.html styles.css sitemap.xml robots.txt _site/
           cp -R brand assets _site/
-          echo 'okinawa-trip-tw.latent-bridge.com' > _site/CNAME
+          echo 'okinawa-kaupue.com' > _site/CNAME
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
