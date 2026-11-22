@@ -1,0 +1,51 @@
+name: 確認済みのサイトを公開
+on:
+  workflow_dispatch:
+    inputs:
+      asset_id:
+        description: このリポジトリに保存した公開用tarのアセット番号
+        required: true
+        type: string
+      sha256:
+        description: チームが検証した公開用tarのSHA-256
+        required: true
+        type: string
+permissions: {}
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  package:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: 指定した配備物の取得と照合
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ASSET_ID: ${{ inputs.asset_id }}
+          DIGEST: ${{ inputs.sha256 }}
+        run: |
+          [[ "$ASSET_ID" =~ ^[0-9]+$ && "$DIGEST" =~ ^[0-9a-f]{64}$ ]] || exit 1
+          gh api "repos/$GITHUB_REPOSITORY/releases/assets/$ASSET_ID" -H 'Accept: application/octet-stream' > artifact.tar
+          echo "$DIGEST  artifact.tar" | sha256sum --check
+      - uses: actions/upload-artifact@v4
+        with:
+          name: github-pages
+          path: artifact.tar
+          retention-days: 1
+          if-no-files-found: error
+  deploy:
+    needs: package
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    steps:
+      - name: 検証済みの内容をPagesに配備
+        uses: actions/deploy-pages@v4
+        id: publish
