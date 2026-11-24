@@ -36,6 +36,7 @@ jobs:
           mkdir -p _site
           cp *.html styles.css sitemap.xml robots.txt _site/
           cp -R brand assets _site/
+          python3 tools/install_guide.py _site
           echo 'okinawa-kaupue.com' > _site/CNAME
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
