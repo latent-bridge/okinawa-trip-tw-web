@@ -6,8 +6,8 @@ from pathlib import Path
 from urllib.request import urlopen
 from zipfile import ZipFile
 
-VERSION = "v0.2.3"
-SHA256 = "65b1a4a547bcbdf8800612683e0551b9d0494bf67e311227443099616ed3634f"
+VERSION = "v0.2.4"
+SHA256 = "e5b62c8ce88992d44b4cac4c314410d80a9784157d674effa48689afca409887"
 URL = f"https://github.com/latent-bridge/okinawa-kaupue-guide-preview/releases/download/{VERSION}/okinawa-guide.zip"
 
 
